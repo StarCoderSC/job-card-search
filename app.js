@@ -20,7 +20,7 @@ function renderResults(matches) {
     results.innerHTML = "";
 
     if (matches.length === 0) {
-        results.innerHTML = '<div class="empty">No matching person found.</div>';
+        results.innerHTML = '<div class="empty">Kyong omying esutacho unhung.</div>';
         return;
     }
 

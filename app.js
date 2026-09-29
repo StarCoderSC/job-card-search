@@ -77,7 +77,7 @@ function search() {
     const query = input.value.trim().toLowerCase();
 
     if (!query) {
-        status.textContent = `Ready. ${jobCardData.length} records loaded.`;
+        status.textContent = `Methakthaka. ${jobCardData.length} records lia.`;
         results.innerHTML = "";
         return;
     }
@@ -86,10 +86,10 @@ function search() {
         person.name.toLowerCase().includes(query)
     );
 
-    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} found.`;
+    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} hungcho.`;
     renderResults(matches);
 }
 
 input.addEventListener("input", search);
 
-status.textContent = `Ready. ${jobCardData.length} records loaded.`;
+status.textContent = `Methakthaka. ${jobCardData.length} records lia.`;

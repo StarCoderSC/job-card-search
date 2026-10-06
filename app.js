@@ -20,7 +20,7 @@ function renderResults(matches) {
     results.innerHTML = "";
 
     if (matches.length === 0) {
-        results.innerHTML = '<div class="empty">No matching person found.</div>';
+        results.innerHTML = '<div class="empty">Omying esutacho unhung.</div>';
         return;
     }
 
@@ -87,7 +87,7 @@ function search() {
     const query = input.value.trim().toLowerCase();
 
     if (!query) {
-        status.textContent = `Ready. ${jobCardData.length} records loaded.`;
+        status.textContent = `Methakthaka. ${jobCardData.length} records hungcho.`;
         results.innerHTML = "";
         return;
     }
@@ -96,10 +96,10 @@ function search() {
         person.name.toLowerCase().includes(query)
     );
 
-    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} found.`;
+    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} hungcho.`;
     renderResults(matches);
 }
 
 input.addEventListener("input", search);
 
-status.textContent = `Ready. ${jobCardData.length} records loaded.`;
+status.textContent = `Methakthaka. ${jobCardData.length} records hungcho.`;

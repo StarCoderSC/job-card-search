@@ -22,3 +22,7 @@ Type part of a person's name. Matching records show the Job Card Number and iden
 ## Privacy
 
 The dataset contains real people's information. Keep this project private/local and do not publish the repository or `data.js` publicly unless you have the necessary permission.
+
+## Account information
+
+The masked bank/account fields are added where a matching Job Card Number was found in the supplied muster-roll PDF. Other records are marked `Account number not found`.

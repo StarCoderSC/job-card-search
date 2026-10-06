@@ -20,7 +20,7 @@ function renderResults(matches) {
     results.innerHTML = "";
 
     if (matches.length === 0) {
-        results.innerHTML = '<div class="empty">Kyong omying esutacho unhung.</div>';
+        results.innerHTML = '<div class="empty">No matching person found.</div>';
         return;
     }
 
@@ -48,6 +48,16 @@ function renderResults(matches) {
         jobCard.innerHTML = "Job Card Number: <strong></strong>";
         jobCard.querySelector("strong").textContent = person.job_card;
         card.appendChild(jobCard);
+
+        const bank = document.createElement("div");
+        bank.className = "detail";
+        bank.textContent = `Bank: ${person.bank || "Not found"}`;
+        card.appendChild(bank);
+
+        const account = document.createElement("div");
+        account.className = "detail";
+        account.textContent = `Account Number: ${person.account_number || "Account number not found"}`;
+        card.appendChild(account);
 
         if (person.issue_date) {
             const date = document.createElement("div");
@@ -77,7 +87,7 @@ function search() {
     const query = input.value.trim().toLowerCase();
 
     if (!query) {
-        status.textContent = `Methakthaka. ${jobCardData.length} records lia.`;
+        status.textContent = `Ready. ${jobCardData.length} records loaded.`;
         results.innerHTML = "";
         return;
     }
@@ -86,10 +96,10 @@ function search() {
         person.name.toLowerCase().includes(query)
     );
 
-    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} hungcho.`;
+    status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"} found.`;
     renderResults(matches);
 }
 
 input.addEventListener("input", search);
 
-status.textContent = `Methakthaka. ${jobCardData.length} records lia.`;
+status.textContent = `Ready. ${jobCardData.length} records loaded.`;

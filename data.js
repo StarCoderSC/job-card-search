@@ -1,14 +1,6 @@
-// Extracted search data from the supplied registration register.
+// Search data extracted from the supplied registration register.
+// Account/bank fields were matched by Job Card Number against the supplied muster-roll PDF.
 const jobCardData = [
-  {
-    "name": "Name of Applicant",
-    "father_husband": "Father/Husband Name",
-    "gender": "Gender",
-    "age": "Age",
-    "job_card": "Job card number",
-    "issue_date": "Job-card issue date",
-    "remarks": "Reasons, if Job Card NOT issued & any other remarks"
-  },
   {
     "name": "Remomo",
     "father_husband": "Lt.Nthio",
@@ -16,7 +8,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/1",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshithung*",
@@ -25,7 +19,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/2",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ponthungo",
@@ -34,7 +30,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/3",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sangmomo",
@@ -43,7 +41,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/4",
     "issue_date": "23/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "benri",
@@ -52,7 +52,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/5",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonyami",
@@ -61,7 +63,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/6",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyamo",
@@ -70,7 +74,9 @@ const jobCardData = [
     "age": "64",
     "job_card": "NL-04-003-003-003/7-A",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vanjamo",
@@ -79,7 +85,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/8",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wosemo",
@@ -88,7 +96,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/9",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khothungo*",
@@ -97,7 +107,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/10",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Njamo",
@@ -106,7 +118,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/11",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33393******"
   },
   {
     "name": "Lidemo*",
@@ -115,7 +129,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/12",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Johncho",
@@ -124,7 +140,9 @@ const jobCardData = [
     "age": "78",
     "job_card": "NL-04-003-003-003/13",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyosali",
@@ -133,7 +151,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/14",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yama",
@@ -142,7 +162,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/15",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yibomo",
@@ -151,7 +173,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/16",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35982******"
   },
   {
     "name": "Khyingo",
@@ -160,7 +184,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/17",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Phyokhamo*",
@@ -169,7 +195,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/18",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nghao*",
@@ -178,7 +206,9 @@ const jobCardData = [
     "age": "64",
     "job_card": "NL-04-003-003-003/19",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Amos",
@@ -187,7 +217,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/20",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yanthungo",
@@ -196,7 +228,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/21",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "yaktamo*",
@@ -205,7 +239,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/22",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzamo*",
@@ -214,7 +250,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/23",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kithungo",
@@ -223,7 +261,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/24",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "32019******"
   },
   {
     "name": "lozano*",
@@ -232,7 +272,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/25",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yitsov",
@@ -241,7 +283,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/26",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yitsow Kithan",
@@ -250,7 +294,9 @@ const jobCardData = [
     "age": "78",
     "job_card": "NL-04-003-003-003/26",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abemo",
@@ -259,7 +305,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/27",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36690******"
   },
   {
     "name": "Jenirao",
@@ -268,7 +316,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/28",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntsomo*",
@@ -277,7 +327,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/29",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rishemo*",
@@ -286,7 +338,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/30",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbanlo*",
@@ -295,7 +349,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/31",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo*",
@@ -304,7 +360,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/32",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yihamo",
@@ -313,7 +371,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/33",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Manglo",
@@ -322,7 +382,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/34",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Yiasali",
@@ -331,7 +393,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/35",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao*",
@@ -340,7 +404,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/36-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renben",
@@ -349,7 +415,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/37",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Evothung",
@@ -358,7 +426,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/38",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nkhalumi*",
@@ -367,7 +437,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/38",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrao*",
@@ -376,7 +448,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/39",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyimo",
@@ -385,7 +459,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/40",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "UCO Bank",
+    "account_number": "23630110******"
   },
   {
     "name": "Pungnov*",
@@ -394,7 +470,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/40",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "UCO Bank",
+    "account_number": "23630110******"
   },
   {
     "name": "Nkomo",
@@ -403,7 +481,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/41",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Account bank not found",
+    "account_number": "27008******"
   },
   {
     "name": "Nyanbeni*",
@@ -412,7 +492,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/41",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Account bank not found",
+    "account_number": "27008******"
   },
   {
     "name": "Shovung",
@@ -421,7 +503,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/42",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Limomo*",
@@ -430,7 +514,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/43",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pyingi",
@@ -439,7 +525,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/44",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntsemo",
@@ -448,7 +536,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/45",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nghamomo",
@@ -457,7 +547,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/46",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chanchu*",
@@ -466,7 +558,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/46",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shayimo*",
@@ -475,7 +569,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/47",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungjanbeni*",
@@ -484,7 +580,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/47",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ellis",
@@ -493,7 +591,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/48",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Mhalo*",
@@ -502,7 +602,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/48",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Wothungo",
@@ -511,7 +613,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/49",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Samti*",
@@ -520,7 +624,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/50",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Narayan",
@@ -529,7 +635,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/51",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yimbemo*",
@@ -538,7 +646,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/52",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhonthungo",
@@ -547,7 +657,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/53",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yamongo*",
@@ -556,7 +668,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/54",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yizao*",
@@ -565,7 +679,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/55",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanyimo",
@@ -574,7 +690,9 @@ const jobCardData = [
     "age": "73",
     "job_card": "NL-04-003-003-003/56",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vanmoni*",
@@ -583,7 +701,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/56",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orensao",
@@ -592,7 +712,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/57",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonthung",
@@ -601,7 +723,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/58",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yinamani",
@@ -610,7 +734,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/59",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womomo",
@@ -619,7 +745,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/60",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumbeni",
@@ -628,7 +756,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/61",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Grace*",
@@ -637,7 +767,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/61",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanpvu*",
@@ -646,7 +778,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/62",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobamo*",
@@ -655,7 +789,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/63",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsemon",
@@ -664,7 +800,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/64",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41451******"
   },
   {
     "name": "Nzehungi*",
@@ -673,7 +811,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/64",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "41451******"
   },
   {
     "name": "Nsemo*",
@@ -682,7 +822,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/65",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aben",
@@ -691,7 +833,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/66",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyamo",
@@ -700,7 +844,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/67",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhondamu",
@@ -709,7 +855,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/68",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonthungo",
@@ -718,7 +866,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/69",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Limhathung*",
@@ -727,7 +877,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/70",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdamo",
@@ -736,7 +888,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/71",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ahao",
@@ -745,7 +899,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/72",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Atsemo*",
@@ -754,7 +910,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/73",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobemo*",
@@ -763,7 +921,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/73",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jophao",
@@ -772,7 +932,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/74",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lisemo*",
@@ -781,7 +943,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/75",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumben",
@@ -790,7 +954,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/76",
     "issue_date": "13/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonbeno*",
@@ -799,7 +965,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/76",
     "issue_date": "13/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pyingtsemo",
@@ -808,7 +976,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/77",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rabomo*",
@@ -817,7 +987,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/78",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Emilo T Tsopoe",
@@ -826,7 +998,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-005-007-007/78-A",
     "issue_date": "11/4/2022",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumjamo",
@@ -835,7 +1009,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/79",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Peter",
@@ -844,7 +1020,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/80",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yinimi*",
@@ -853,7 +1031,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/80",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanarao",
@@ -862,7 +1042,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/81",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "Phanchilo*",
@@ -871,7 +1053,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/81",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "Tsikemo",
@@ -880,7 +1064,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/82",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "Yanbensiu*",
@@ -889,7 +1075,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/83",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yisali*",
@@ -898,7 +1086,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/83",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumti",
@@ -907,7 +1097,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/84",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzano*",
@@ -916,7 +1108,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/84",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sabemo*",
@@ -925,7 +1119,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/85",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lonase*",
@@ -934,7 +1130,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/86",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenithung",
@@ -943,7 +1141,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/87",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbemo",
@@ -952,7 +1152,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/88",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhontsen",
@@ -961,7 +1163,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/89",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "lily*",
@@ -970,7 +1174,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/89",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Moyithung",
@@ -979,7 +1185,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/90",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aromo",
@@ -988,7 +1196,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/91",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myamo*",
@@ -997,7 +1207,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/92",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "aKHEMO*",
@@ -1006,7 +1218,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/93",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuthunglo*",
@@ -1015,7 +1229,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/94",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PINYIMO*",
@@ -1024,7 +1240,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/95",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Anthony",
@@ -1033,7 +1251,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/96",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20233******"
   },
   {
     "name": "aBENO",
@@ -1042,7 +1262,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/97",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhonbemo*",
@@ -1051,7 +1273,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/98",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanjo*",
@@ -1060,7 +1284,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/99",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "shancho*",
@@ -1069,7 +1295,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/99",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sancho Shitiry*",
@@ -1078,7 +1306,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/99",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 24/9/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libanthung*",
@@ -1087,7 +1317,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/100",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Remomo",
@@ -1096,7 +1328,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/101",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ratsano*",
@@ -1105,7 +1339,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/101",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nmhao",
@@ -1114,7 +1350,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/102",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Sankhalo*",
@@ -1123,7 +1361,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/103",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Woben",
@@ -1132,7 +1372,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/104",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chibemo*",
@@ -1141,7 +1383,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/105",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womoni*",
@@ -1150,7 +1394,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/105",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benjan*",
@@ -1159,7 +1405,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/106",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khontsungu",
@@ -1168,7 +1416,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/107",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yankhumo",
@@ -1177,7 +1427,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/108",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonyimo*",
@@ -1186,7 +1438,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/109",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsoalo",
@@ -1195,7 +1449,9 @@ const jobCardData = [
     "age": "78",
     "job_card": "NL-04-003-003-003/110",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yANBENI*",
@@ -1204,7 +1460,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/110",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "rOBEN*",
@@ -1213,7 +1471,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/111",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungchumo",
@@ -1222,7 +1482,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/112",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Sangmomo",
@@ -1231,7 +1493,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/113",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonsali Tsopoe*",
@@ -1240,7 +1504,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/113",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pyozhuv*",
@@ -1249,7 +1515,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/114",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sulumo*",
@@ -1258,7 +1526,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/115",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanphamo*",
@@ -1267,7 +1537,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/115",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumremo*",
@@ -1276,7 +1548,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/116",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonlumi*",
@@ -1285,7 +1559,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/116",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renao",
@@ -1294,7 +1570,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/117",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rachi",
@@ -1303,7 +1581,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/118",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khochobeni*",
@@ -1312,7 +1592,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/118",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yiramo*",
@@ -1321,7 +1603,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/119",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benthungo*",
@@ -1330,7 +1614,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/119",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbani",
@@ -1339,7 +1625,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/120",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khothungo",
@@ -1348,7 +1636,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/121",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantung*",
@@ -1357,7 +1647,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/121",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanjamo*",
@@ -1366,7 +1658,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/122",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tongti",
@@ -1375,7 +1669,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/123",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "99000******"
   },
   {
     "name": "Renbeni*",
@@ -1384,7 +1680,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/123",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "99000******"
   },
   {
     "name": "Yontomo",
@@ -1393,7 +1691,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/124",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lokyonglu",
@@ -1402,7 +1702,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/125",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbeni*",
@@ -1411,7 +1713,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/125",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Likhamo",
@@ -1420,7 +1724,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/126",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Merilo*",
@@ -1429,7 +1735,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/126",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yantsomo",
@@ -1438,7 +1746,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/127",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbenshan*",
@@ -1447,7 +1757,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/128",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mebeno*",
@@ -1456,7 +1768,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/129",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Athongo",
@@ -1465,7 +1779,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/130",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsumongo",
@@ -1474,7 +1790,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/131",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Kilo*",
@@ -1483,7 +1801,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/132",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni*",
@@ -1492,7 +1812,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/132",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nribemo",
@@ -1501,7 +1823,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/133",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Remomo",
@@ -1510,7 +1834,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/134",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "kHONCHIO",
@@ -1519,7 +1845,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/135",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "32922******"
   },
   {
     "name": "jOMONI*",
@@ -1528,7 +1856,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/135",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "32922******"
   },
   {
     "name": "Shoav",
@@ -1537,7 +1867,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/136",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kirhyuo*",
@@ -1546,7 +1878,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/137",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Raben",
@@ -1555,7 +1889,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/138",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuben",
@@ -1564,7 +1900,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/139",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tumchobeni*",
@@ -1573,7 +1911,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/139",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 29/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsashan",
@@ -1582,7 +1922,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/140",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35277******"
   },
   {
     "name": "Shamomo",
@@ -1591,7 +1933,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/141",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbomo",
@@ -1600,7 +1944,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/142",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Achumo*",
@@ -1609,7 +1955,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/143",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Soren",
@@ -1618,7 +1966,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/144",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Rhanben",
@@ -1627,7 +1977,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/145",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni*",
@@ -1636,7 +1988,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/146",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsamomo",
@@ -1645,7 +1999,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/147",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khochelo*",
@@ -1654,7 +2010,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/147",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wonbemo",
@@ -1663,7 +2021,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/148",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Khonchiv*",
@@ -1672,7 +2032,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/148",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Sanchumo*",
@@ -1681,7 +2043,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/149",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yikhyao",
@@ -1690,7 +2054,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/150",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrithung",
@@ -1699,7 +2065,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/151",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni*",
@@ -1708,7 +2076,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/151",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Achum",
@@ -1717,7 +2087,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/152",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Merithung",
@@ -1726,7 +2098,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/153",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonjan",
@@ -1735,7 +2109,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/154",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenbeni*",
@@ -1744,7 +2120,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/154",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanpo",
@@ -1753,7 +2131,9 @@ const jobCardData = [
     "age": "73",
     "job_card": "NL-04-003-003-003/155",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimthungo",
@@ -1762,7 +2142,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/156",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonchiv*",
@@ -1771,7 +2153,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/156",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsikiv",
@@ -1780,7 +2164,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/157",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanarhomo*",
@@ -1789,7 +2175,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/158",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chimomo*",
@@ -1798,7 +2186,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/159",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rilow",
@@ -1807,7 +2197,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/160",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Ethungmoni",
@@ -1816,7 +2208,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/161",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyochumo*",
@@ -1825,7 +2219,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/162",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbenshan",
@@ -1834,7 +2230,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/163",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31788******"
   },
   {
     "name": "Wothungo",
@@ -1843,7 +2241,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/164",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanreno*",
@@ -1852,7 +2252,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/164",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao",
@@ -1861,7 +2263,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/165",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31791******"
   },
   {
     "name": "epio*",
@@ -1870,7 +2274,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/165",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "31791******"
   },
   {
     "name": "Rilumo",
@@ -1879,7 +2285,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/166",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungsali*",
@@ -1888,7 +2296,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/166",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyalano",
@@ -1897,7 +2307,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/167",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi*",
@@ -1906,7 +2318,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/167",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yibemo",
@@ -1915,7 +2329,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/168",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chongirali*",
@@ -1924,7 +2340,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/169",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo*",
@@ -1933,7 +2351,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/170",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khangshio",
@@ -1942,7 +2362,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/171",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumomo*",
@@ -1951,7 +2373,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/172",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rabungu*",
@@ -1960,7 +2384,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/172",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nthungo",
@@ -1969,7 +2395,9 @@ const jobCardData = [
     "age": "64",
     "job_card": "NL-04-003-003-003/173",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyolamo*",
@@ -1978,7 +2406,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/174",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Oren",
@@ -1987,7 +2417,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/175",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nralo*",
@@ -1996,7 +2428,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/176",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanra",
@@ -2005,7 +2439,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/177",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myingthungo",
@@ -2014,7 +2450,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/178",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33286******"
   },
   {
     "name": "Chumjano*",
@@ -2023,7 +2461,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/178",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "State Bank of India",
+    "account_number": "33286******"
   },
   {
     "name": "Elamo",
@@ -2032,7 +2472,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/179",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benchilo*",
@@ -2041,7 +2483,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/179",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pyingjamo",
@@ -2050,7 +2494,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/180",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ayangla*",
@@ -2059,7 +2505,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/180",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchemo",
@@ -2068,7 +2516,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/181",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubenthung*",
@@ -2077,7 +2527,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/182",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "mary*",
@@ -2086,7 +2538,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/182",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 26/2/2025; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renchithung Kithan",
@@ -2095,7 +2549,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-005-007-007/182-A",
     "issue_date": "11/4/2022",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aremo",
@@ -2104,7 +2560,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/183",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonsuv*",
@@ -2113,7 +2571,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/183",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sanchumo*",
@@ -2122,7 +2582,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/184",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanarao*",
@@ -2131,7 +2593,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/185",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanakhon*",
@@ -2140,7 +2604,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/186",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyani*",
@@ -2149,7 +2615,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/186",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rakomo",
@@ -2158,7 +2626,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/187",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungamoni*",
@@ -2167,7 +2637,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/187",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyophio",
@@ -2176,7 +2648,9 @@ const jobCardData = [
     "age": "73",
     "job_card": "NL-04-003-003-003/188",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pithunglo*",
@@ -2185,7 +2659,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/188",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Amalo*",
@@ -2194,7 +2670,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/189",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchio*",
@@ -2203,7 +2681,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/190",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ajano*",
@@ -2212,7 +2692,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/191",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonlumo",
@@ -2221,7 +2703,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/192",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "Kingo",
@@ -2230,7 +2714,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/193",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsumongi*",
@@ -2239,7 +2725,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/193",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenbemo",
@@ -2248,7 +2736,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/194",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzano*",
@@ -2257,7 +2747,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/194",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wojamo*",
@@ -2266,7 +2758,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/195",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kilio*",
@@ -2275,7 +2769,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/196",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsilumvu*",
@@ -2284,7 +2780,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/196",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nkhanyimo",
@@ -2293,7 +2791,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/197",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36162******"
   },
   {
     "name": "Nzano*",
@@ -2302,7 +2802,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/197",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "36162******"
   },
   {
     "name": "Elhio",
@@ -2311,7 +2813,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/198",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "aNTHONY*",
@@ -2320,7 +2824,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/199",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "wOTHUNGO",
@@ -2329,7 +2835,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/200",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "nYAMO",
@@ -2338,7 +2846,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/201",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40935******"
   },
   {
     "name": "wOCHUMO*",
@@ -2347,7 +2857,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/202",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "kHACHUMO*",
@@ -2356,7 +2868,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/203",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungchumo",
@@ -2365,7 +2879,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/204",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mary*",
@@ -2374,7 +2890,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/204",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyimi",
@@ -2383,7 +2901,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/205",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumo",
@@ -2392,7 +2912,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/206",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100160015******"
   },
   {
     "name": "Nzani*",
@@ -2401,7 +2923,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/206",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100160015******"
   },
   {
     "name": "Nremo*",
@@ -2410,7 +2934,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/207",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nwonyimo*",
@@ -2419,7 +2945,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/208",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshi*",
@@ -2428,7 +2956,9 @@ const jobCardData = [
     "age": "64",
     "job_card": "NL-04-003-003-003/209",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "N.John*",
@@ -2437,7 +2967,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/210",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsemoni*",
@@ -2446,7 +2978,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/211",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonyimi*",
@@ -2455,7 +2989,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/212",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungrhumo",
@@ -2464,7 +3000,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/213",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nlongtsu*",
@@ -2473,7 +3011,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/214",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimsao",
@@ -2482,7 +3022,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/215",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumlo*",
@@ -2491,7 +3033,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/215",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sabemo*",
@@ -2500,7 +3044,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/216",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nlongtsu",
@@ -2509,7 +3055,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/217",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbamo",
@@ -2518,7 +3066,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/218",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PVUCHIRAO",
@@ -2527,7 +3077,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/219",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LUCY*",
@@ -2536,7 +3088,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/219",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "cHONGIRAO",
@@ -2545,7 +3099,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/220",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "MHONO*",
@@ -2554,7 +3110,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/220",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "36603******"
   },
   {
     "name": "Mathew",
@@ -2563,7 +3121,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/221",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungjamo*",
@@ -2572,7 +3132,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/221",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Azamo*",
@@ -2581,7 +3143,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/222",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbani",
@@ -2590,7 +3154,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/223",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIBAN",
@@ -2599,7 +3165,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/224",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobomo",
@@ -2608,7 +3176,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/225",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrihano*",
@@ -2617,7 +3187,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/225",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyomoni*",
@@ -2626,7 +3198,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/226",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbon*",
@@ -2635,7 +3209,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/227",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Langlamo",
@@ -2644,7 +3220,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/228",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yibomo*",
@@ -2653,7 +3231,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/229",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rensali",
@@ -2662,7 +3242,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/230",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsemo",
@@ -2671,7 +3253,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/231",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chimoni*",
@@ -2680,7 +3264,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/231",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonthung",
@@ -2689,7 +3275,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/232",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yimoni*",
@@ -2698,7 +3286,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/233",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yikhayn*",
@@ -2707,7 +3297,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/234",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sacheo*",
@@ -2716,7 +3308,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/235",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabamo*",
@@ -2725,7 +3319,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/235",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimtsemo*",
@@ -2734,7 +3330,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/236",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Agnes*",
@@ -2743,7 +3341,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/236",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "jenio*",
@@ -2752,7 +3352,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/237",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyokjamo*",
@@ -2761,7 +3363,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/238",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyamo",
@@ -2770,7 +3374,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/239",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Motsuthung*",
@@ -2779,7 +3385,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/239",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsemo*",
@@ -2788,7 +3396,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/240",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yimani Patton",
@@ -2797,7 +3407,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/240",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nchumbemo",
@@ -2806,7 +3418,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/241",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mongchio*",
@@ -2815,7 +3429,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/242",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yichongo",
@@ -2824,7 +3440,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/243",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Wodemo",
@@ -2833,7 +3451,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/244",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wodemo lotha",
@@ -2842,7 +3462,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/244",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Salamo",
@@ -2851,7 +3473,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/245",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lolamvu*",
@@ -2860,7 +3484,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/245",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yangviu*",
@@ -2869,7 +3495,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/246",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichumo",
@@ -2878,7 +3506,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/247",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Akhango",
@@ -2887,7 +3517,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/248",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lozano*",
@@ -2896,7 +3528,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/248",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsua*",
@@ -2905,7 +3539,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/249",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Njanbeni*",
@@ -2914,7 +3550,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/250",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenikon*",
@@ -2923,7 +3561,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/251",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ponthunglo*",
@@ -2932,7 +3572,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/252",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benthunglo Kikon",
@@ -2941,7 +3583,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/252",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanpo",
@@ -2950,7 +3594,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/253",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yitso*",
@@ -2959,7 +3605,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/254",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungben",
@@ -2968,7 +3616,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/255",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nzinimo",
@@ -2977,7 +3627,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/256",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rabomo",
@@ -2986,7 +3638,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/257",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100160015******"
   },
   {
     "name": "James*",
@@ -2995,7 +3649,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/258",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ngheo",
@@ -3004,7 +3660,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/259",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zizao",
@@ -3013,7 +3671,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/260",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbomo",
@@ -3022,7 +3682,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/261",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Akho",
@@ -3031,7 +3693,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/262",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbemo",
@@ -3040,7 +3704,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/263",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Oren",
@@ -3049,7 +3715,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/264",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumo*",
@@ -3058,7 +3726,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/265",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nkhao*",
@@ -3067,7 +3737,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/266",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wodemo*",
@@ -3076,7 +3748,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/267",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vanjamo*",
@@ -3085,7 +3759,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/268",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Etsamo*",
@@ -3094,7 +3770,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/269",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyhenyalo",
@@ -3103,7 +3781,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/270",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanthung",
@@ -3112,7 +3792,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/271",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yanjano",
@@ -3121,7 +3803,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/272",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Suchamo*",
@@ -3130,7 +3814,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/273",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yamongo*",
@@ -3139,7 +3825,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/274",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobemo",
@@ -3148,7 +3836,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/275",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43285******"
   },
   {
     "name": "Nyanchumo",
@@ -3157,7 +3847,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/276",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phalamo*",
@@ -3166,7 +3858,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/277",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Olamvu*",
@@ -3175,7 +3869,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/277",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsemo",
@@ -3184,7 +3880,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/278",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichio",
@@ -3193,7 +3891,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/279",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo",
@@ -3202,7 +3902,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/280",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renjamo",
@@ -3211,7 +3913,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/281",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Ratseno*",
@@ -3220,7 +3924,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/282",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Augustin",
@@ -3229,7 +3935,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/283",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chibemmo*",
@@ -3238,7 +3946,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/284",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Motsuo",
@@ -3247,7 +3957,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/285",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsungrithung",
@@ -3256,7 +3968,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/286",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyibeni*",
@@ -3265,7 +3979,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/286",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yenjamo*",
@@ -3274,7 +3990,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/287",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rabeni*",
@@ -3283,7 +4001,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/288",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbemo*",
@@ -3292,7 +4012,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/289",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshithung",
@@ -3301,7 +4023,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/290",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "39198******"
   },
   {
     "name": "Yanban*",
@@ -3310,7 +4034,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/291",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yinimi*",
@@ -3319,7 +4045,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/291",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yikhyao",
@@ -3328,7 +4056,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/292",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenthung*",
@@ -3337,7 +4067,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/293",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo",
@@ -3346,7 +4078,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/294",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Loyiv",
@@ -3355,7 +4089,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/295",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonsumo*",
@@ -3364,7 +4100,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/298",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ero*",
@@ -3373,7 +4111,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/299",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phankhao",
@@ -3382,7 +4122,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/300",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Sabemo",
@@ -3391,7 +4133,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/301",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Khonyimo",
@@ -3400,7 +4144,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/302",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yichongo",
@@ -3409,7 +4155,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/303",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yamolo*",
@@ -3418,7 +4166,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/304",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntseno",
@@ -3427,7 +4177,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/305",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Phanchio*",
@@ -3436,7 +4188,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/306",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chimomo",
@@ -3445,7 +4199,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/307",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nramo",
@@ -3454,7 +4210,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/308",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "34944******"
   },
   {
     "name": "Tsenanyimo*",
@@ -3463,7 +4221,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/309",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimbeni*",
@@ -3472,7 +4232,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/309",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumlamo",
@@ -3481,7 +4243,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/310",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhono*",
@@ -3490,7 +4254,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/310",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanthungo*",
@@ -3499,7 +4265,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/311",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abel*",
@@ -3508,7 +4276,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/313",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonthungo",
@@ -3517,7 +4287,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/314",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "11846******"
   },
   {
     "name": "Mhonyimo",
@@ -3526,7 +4298,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/315",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Elhibamo*",
@@ -3535,7 +4309,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/316",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chilo",
@@ -3544,7 +4320,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/317",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchio",
@@ -3553,7 +4331,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/318",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhansali*",
@@ -3562,7 +4342,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/319",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chipvulo*",
@@ -3571,7 +4353,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/320",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thunjamo",
@@ -3580,7 +4364,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/321",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Konao*",
@@ -3589,7 +4375,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/322",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sankhao*",
@@ -3598,7 +4386,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/323",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumo*",
@@ -3607,7 +4397,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/324",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntsemo",
@@ -3616,7 +4408,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/325",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Rilanbumo*",
@@ -3625,7 +4419,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/326",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abeni*",
@@ -3634,7 +4430,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/326",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ezomongo",
@@ -3643,7 +4441,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/327",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "10010006******"
   },
   {
     "name": "Lojamo*",
@@ -3652,7 +4452,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/328",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yiboni*",
@@ -3661,7 +4463,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/328",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wothungo*",
@@ -3670,7 +4474,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/329",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchilo*",
@@ -3679,7 +4485,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/329",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsumomo",
@@ -3688,7 +4496,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/330",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Mhonchumi*",
@@ -3697,7 +4507,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/330",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: Person shifted to a new family",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yanbeni*",
@@ -3706,7 +4518,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/331",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Daniel",
@@ -3715,7 +4529,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/332",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzehungo",
@@ -3724,7 +4540,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/333",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ratsemo",
@@ -3733,7 +4551,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/334",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzilo*",
@@ -3742,7 +4562,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/334",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanshumo",
@@ -3751,7 +4573,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/335",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Njano*",
@@ -3760,7 +4584,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/336",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrao",
@@ -3769,7 +4595,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/337",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshi",
@@ -3778,7 +4606,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/338",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Boshoni",
@@ -3787,7 +4617,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/339",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Jenithung*",
@@ -3796,7 +4628,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/340",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nribemo*",
@@ -3805,7 +4639,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/341",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Subeno",
@@ -3814,7 +4650,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/342",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yanbeni",
@@ -3823,7 +4661,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/343",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lithungbemo",
@@ -3832,7 +4672,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/344",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumthungo",
@@ -3841,7 +4683,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/345",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rentsamo",
@@ -3850,7 +4694,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/346",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo*",
@@ -3859,7 +4705,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/347",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Duplicate Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Duplicate Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chipvulo*",
@@ -3868,7 +4716,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/348",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chimoni",
@@ -3877,7 +4727,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/349",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyokhamo*",
@@ -3886,7 +4738,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/350",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Olamvu*",
@@ -3895,7 +4749,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/351",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumlo*",
@@ -3904,7 +4760,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/352",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Peter*",
@@ -3913,7 +4771,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/353",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ARHONI YANTHAN",
@@ -3922,7 +4782,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-022-022/353",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni",
@@ -3931,7 +4793,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/354",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhathung*",
@@ -3940,7 +4804,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/355",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyokhamo*",
@@ -3949,7 +4815,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/356",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vencent",
@@ -3958,7 +4826,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/357",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "zUBEMO*",
@@ -3967,7 +4837,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/358",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "lIJANBEMO*",
@@ -3976,7 +4848,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/359",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "pHYOPHIO*",
@@ -3985,7 +4859,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/360",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "aBENTHUNG*",
@@ -3994,7 +4870,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/361",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsanboni*",
@@ -4003,7 +4881,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/362",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhontsen",
@@ -4012,7 +4892,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/363",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yentsao",
@@ -4021,7 +4903,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/364",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nmhao*",
@@ -4030,7 +4914,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/365",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo*",
@@ -4039,7 +4925,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/366",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichumo*",
@@ -4048,7 +4936,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/367",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pario*",
@@ -4057,7 +4947,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/368",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanrenthung",
@@ -4066,7 +4958,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/369",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "44085******"
   },
   {
     "name": "Meribemo",
@@ -4075,7 +4969,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/370",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanthungshan",
@@ -4084,7 +4980,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/371",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbemo",
@@ -4093,7 +4991,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/372",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsuthung*",
@@ -4102,7 +5002,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/373",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yingathung P Tungoe",
@@ -4111,7 +5013,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/373",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shiben",
@@ -4120,7 +5024,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/374",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo*",
@@ -4129,7 +5035,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/375",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumjanbeni*",
@@ -4138,7 +5046,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/376",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumdemo*",
@@ -4147,7 +5057,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/377",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Atseno",
@@ -4156,7 +5068,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/378",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsulan*",
@@ -4165,7 +5079,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/379",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni",
@@ -4174,7 +5090,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/380",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhanjamo",
@@ -4183,7 +5101,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/381",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Areni*",
@@ -4192,7 +5112,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/381",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 12/10/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Emano*",
@@ -4201,7 +5123,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/382",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aben*",
@@ -4210,7 +5134,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/383",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanphamo*",
@@ -4219,7 +5145,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/384",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lucy",
@@ -4228,7 +5156,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/385",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Zuthunglo*",
@@ -4237,7 +5167,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/386",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nnili",
@@ -4246,7 +5178,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/387",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhono*",
@@ -4255,7 +5189,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/388",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bosoni*",
@@ -4264,7 +5200,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/389",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenjani*",
@@ -4273,7 +5211,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/390",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sankhano",
@@ -4282,7 +5222,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/391",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chumbenthung*",
@@ -4291,7 +5233,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/392",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womongo*",
@@ -4300,7 +5244,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/393",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Etsibeni",
@@ -4309,7 +5255,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/394",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Achumo*",
@@ -4318,7 +5266,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/395",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yilumo",
@@ -4327,7 +5277,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/396",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungchibeni",
@@ -4336,7 +5288,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/397",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyodemo*",
@@ -4345,7 +5299,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/398",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Moyithuuung*",
@@ -4354,7 +5310,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/399",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 15/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 15/10/2025; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdemo",
@@ -4363,7 +5321,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/399",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyani*",
@@ -4372,7 +5332,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/400",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thunjamo",
@@ -4381,7 +5343,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/401",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "39217******"
   },
   {
     "name": "Thungdemo",
@@ -4390,7 +5354,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/402",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rashamo",
@@ -4399,7 +5365,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/403",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kiathung",
@@ -4408,7 +5376,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/404",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Libemo*",
@@ -4417,7 +5387,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/405",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lothunglo*",
@@ -4426,7 +5398,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/406",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshilo",
@@ -4435,7 +5409,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/407",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonah",
@@ -4444,7 +5420,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/408",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Areni",
@@ -4453,7 +5431,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/409",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbenni",
@@ -4462,7 +5442,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/410",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35283******"
   },
   {
     "name": "Ayingro*",
@@ -4471,7 +5453,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/411",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanchibeni*",
@@ -4480,7 +5464,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/412",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wontsuthung*",
@@ -4489,7 +5475,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/413",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyolamo*",
@@ -4498,7 +5486,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/414",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Senbeni*",
@@ -4507,7 +5497,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/415",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanabemo*",
@@ -4516,7 +5508,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/416",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobemo",
@@ -4525,7 +5519,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/417",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zana*",
@@ -4534,7 +5530,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/418",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abel",
@@ -4543,7 +5541,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/419",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Merijan*",
@@ -4552,7 +5552,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/420",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wolumo*",
@@ -4561,7 +5563,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/421",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zujamo",
@@ -4570,7 +5574,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/422",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo*",
@@ -4579,7 +5585,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/423",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbeni",
@@ -4588,7 +5596,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/424",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsilumvu",
@@ -4597,7 +5607,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/425",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Therali*",
@@ -4606,7 +5618,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/426",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Arenthung*",
@@ -4615,7 +5629,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/427",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khothungo",
@@ -4624,7 +5640,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/428",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libeni",
@@ -4633,7 +5651,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/429",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Michal*",
@@ -4642,7 +5662,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/430",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Noyingo*",
@@ -4651,7 +5673,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/431",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libanthung",
@@ -4660,7 +5684,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/432",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "pONSHAMO",
@@ -4669,7 +5695,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/433",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Akhemo",
@@ -4678,7 +5706,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/433-A",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phyophio*",
@@ -4687,7 +5717,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/434",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanthiv",
@@ -4696,7 +5728,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/435",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Renbenthung*",
@@ -4705,7 +5739,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/436",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzehungi*",
@@ -4714,7 +5750,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/437",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 15/10/2025; Reason: Person shifted to a new family"
+    "remarks": "Deleted w.e.f. 15/10/2025; Reason: Person shifted to a new family",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "s kithan",
@@ -4723,7 +5761,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/437",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Evothung*",
@@ -4732,7 +5772,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/438",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lireni*",
@@ -4741,7 +5783,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/439",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thunngjanbeno*",
@@ -4750,7 +5794,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/440",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Simon*",
@@ -4759,7 +5805,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/441",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yankho",
@@ -4768,7 +5816,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/442",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41885******"
   },
   {
     "name": "Chenithung",
@@ -4777,7 +5827,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/443",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38762******"
   },
   {
     "name": "tsenbemo",
@@ -4786,7 +5838,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/444",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lozano",
@@ -4795,7 +5849,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/445",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zajamo*",
@@ -4804,7 +5860,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/446",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ayingla*",
@@ -4813,7 +5871,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/447",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rikhyolo*",
@@ -4822,7 +5882,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/448",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbeni",
@@ -4831,7 +5893,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/449",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdemo*",
@@ -4840,7 +5904,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/450",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kiasali*",
@@ -4849,7 +5915,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/451",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lisumo*",
@@ -4858,7 +5926,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/452",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lijanbeni*",
@@ -4867,7 +5937,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/453",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi",
@@ -4876,7 +5948,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/454",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Account bank not found",
+    "account_number": "99000******"
   },
   {
     "name": "Yanbani*",
@@ -4885,7 +5959,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/455",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchilo*",
@@ -4894,7 +5970,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/456",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yansali*",
@@ -4903,7 +5981,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/457",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khumlamo*",
@@ -4912,7 +5992,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/458",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yirhoni*",
@@ -4921,7 +6003,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/459",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rahungo",
@@ -4930,7 +6014,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/460",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Daniel*",
@@ -4939,7 +6025,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/461",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonyani",
@@ -4948,7 +6036,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/462",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Yibeni*",
@@ -4957,7 +6047,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/463",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elizabeth",
@@ -4966,7 +6058,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/464",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsakhono*",
@@ -4975,7 +6069,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/465",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nlumo*",
@@ -4984,7 +6080,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/466",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Anyimi*",
@@ -4993,7 +6091,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/467",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni*",
@@ -5002,7 +6102,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/468",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lucy*",
@@ -5011,7 +6113,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/469",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonsali",
@@ -5020,7 +6124,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/470",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Torio",
@@ -5029,7 +6135,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/471",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Etssiv*",
@@ -5038,7 +6146,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/472",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonyimi*",
@@ -5047,7 +6157,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/473",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumlo*",
@@ -5056,7 +6168,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/474",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pankhumlo*",
@@ -5065,7 +6179,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/475",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzehungi",
@@ -5074,7 +6190,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/476",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35703******"
   },
   {
     "name": "Khoncho*",
@@ -5083,7 +6201,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/477",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Samuel",
@@ -5092,7 +6212,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/478",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Salumi",
@@ -5101,7 +6223,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/479",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Augustin*",
@@ -5110,7 +6234,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/480",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Easter",
@@ -5119,7 +6245,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/481",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elhibani*",
@@ -5128,7 +6256,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/482",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Choinbeni",
@@ -5137,7 +6267,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/483",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40785******"
   },
   {
     "name": "Lorobeni",
@@ -5146,7 +6278,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/484",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myinthungo*",
@@ -5155,7 +6289,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/485",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benchilo",
@@ -5164,7 +6300,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/486",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36610******"
   },
   {
     "name": "Khocho",
@@ -5173,7 +6311,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/487",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Loyibeni*",
@@ -5182,7 +6322,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/488",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Subeno*",
@@ -5191,7 +6333,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/489",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumdemo*",
@@ -5200,7 +6344,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/490",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nriothung*",
@@ -5209,7 +6355,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/491",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobemo*",
@@ -5218,7 +6366,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/492",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chongiv*",
@@ -5227,7 +6377,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/493",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ajano*",
@@ -5236,7 +6388,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/493-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aroni",
@@ -5245,7 +6399,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/494",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Merilo",
@@ -5254,7 +6410,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/495",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abemo*",
@@ -5263,7 +6421,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/495-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung*",
@@ -5272,7 +6432,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/496",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yanmhon*",
@@ -5281,7 +6443,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/497",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdemo*",
@@ -5290,7 +6454,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/498",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzehungo*",
@@ -5299,7 +6465,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/499",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanbemo*",
@@ -5308,7 +6476,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/500",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzio*",
@@ -5317,7 +6487,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/501",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumo*",
@@ -5326,7 +6498,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/502",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Peter*",
@@ -5335,7 +6509,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/503",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "John*",
@@ -5344,7 +6520,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/504",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyimo*",
@@ -5353,7 +6531,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/505",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ahao*",
@@ -5362,7 +6542,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/506",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aremo",
@@ -5371,7 +6553,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/507",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung*",
@@ -5380,7 +6564,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/508",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumo*",
@@ -5389,7 +6575,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/509",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khomo*",
@@ -5398,7 +6586,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/510",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo*",
@@ -5407,7 +6597,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/511",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womongo*",
@@ -5416,7 +6608,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/512",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrao*",
@@ -5425,7 +6619,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/513",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rumphio*",
@@ -5434,7 +6630,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/514",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nralo*",
@@ -5443,7 +6641,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/514-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yihamo*",
@@ -5452,7 +6652,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/515",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pyingtsemo*",
@@ -5461,7 +6663,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/516",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimtsemo*",
@@ -5470,7 +6674,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/517",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thenhyao*",
@@ -5479,7 +6685,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/518",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elihio*",
@@ -5488,7 +6696,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/518-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "David*",
@@ -5497,7 +6707,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/519",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rebenthung*",
@@ -5506,7 +6718,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/520",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sorenthung*",
@@ -5515,7 +6729,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/521",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbeni",
@@ -5524,7 +6740,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/522",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31857******"
   },
   {
     "name": "Merithung*",
@@ -5533,7 +6751,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/523",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benthung*",
@@ -5542,7 +6762,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/524",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonthung*",
@@ -5551,7 +6773,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/524-A",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renjamo",
@@ -5560,7 +6784,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/526",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "James",
@@ -5569,7 +6795,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/527",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37798******"
   },
   {
     "name": "Thuungjano*",
@@ -5578,7 +6806,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/528",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Thungchanbeni patton",
@@ -5587,7 +6817,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/528",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Renbeni",
@@ -5596,7 +6828,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/529",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungjabemo",
@@ -5605,7 +6839,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/530",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhathung*",
@@ -5614,7 +6850,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/531",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "David*",
@@ -5623,7 +6861,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/532",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbemo*",
@@ -5632,7 +6872,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/533",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchuemo*",
@@ -5641,7 +6883,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/534",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jandemo*",
@@ -5650,7 +6894,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/535",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchemo*",
@@ -5659,7 +6905,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/536",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Echabemo*",
@@ -5668,7 +6916,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/537",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nkhyingo*",
@@ -5677,7 +6927,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/538",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyothung*",
@@ -5686,7 +6938,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/539",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Esenthung",
@@ -5695,7 +6949,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/540",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rensamo*",
@@ -5704,7 +6960,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/541",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kithungbemo*",
@@ -5713,7 +6971,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/542",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhanben*",
@@ -5722,7 +6982,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/543",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sanjamo*",
@@ -5731,7 +6993,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/544",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rebemo*",
@@ -5740,7 +7004,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/545",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo*",
@@ -5749,7 +7015,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/546",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbemo",
@@ -5758,7 +7026,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/547",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libamo*",
@@ -5767,7 +7037,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/548",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenthung*",
@@ -5776,7 +7048,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/549",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubenthung",
@@ -5785,7 +7059,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/550",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni*",
@@ -5794,7 +7070,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/551",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanthung",
@@ -5803,7 +7081,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/552",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wokhemo*",
@@ -5812,7 +7092,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/553",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renthungo*",
@@ -5821,7 +7103,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/554",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chanbemo",
@@ -5830,7 +7114,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/555",
     "issue_date": "11/8/2007",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenthung*",
@@ -5839,7 +7125,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/556",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 23/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanphio*",
@@ -5848,7 +7136,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/557",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abemomo*",
@@ -5857,7 +7147,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/558",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrio*",
@@ -5866,7 +7158,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/559",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbenthung*",
@@ -5875,7 +7169,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/560",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zulhani*",
@@ -5884,7 +7180,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/561",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo*",
@@ -5893,7 +7191,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/563",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Hathungo*",
@@ -5902,7 +7202,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/564",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sanchithung*",
@@ -5911,7 +7213,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/565",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung*",
@@ -5920,7 +7224,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/566",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elothung",
@@ -5929,7 +7235,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/567",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhajan*",
@@ -5938,7 +7246,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/568",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbemo*",
@@ -5947,7 +7257,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/569",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rentsamo*",
@@ -5956,7 +7268,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/570",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntsen*",
@@ -5965,7 +7279,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/571",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanchibemo*",
@@ -5974,7 +7290,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/572",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wothungo*",
@@ -5983,7 +7301,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/573",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jantemo*",
@@ -5992,7 +7312,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/574",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbo*",
@@ -6001,7 +7323,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/575",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo*",
@@ -6010,7 +7334,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/576",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumo*",
@@ -6019,7 +7345,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/577",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Janbemo*",
@@ -6028,7 +7356,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/578",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rentsamo",
@@ -6037,7 +7367,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/579",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo*",
@@ -6046,7 +7378,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/580",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Allond*",
@@ -6055,7 +7389,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/581",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elon Odyuo",
@@ -6064,7 +7400,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/581",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzan*",
@@ -6073,7 +7411,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/582",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenthungo",
@@ -6082,7 +7422,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/583",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shoben",
@@ -6091,7 +7433,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/584",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsanthungo*",
@@ -6100,7 +7444,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/585",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbemo*",
@@ -6109,7 +7455,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/586",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhathung",
@@ -6118,7 +7466,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/587",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yanphamo",
@@ -6127,7 +7477,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/588",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Tsulumo*",
@@ -6136,7 +7488,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/589",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsulumo*",
@@ -6145,7 +7499,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/590",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsumomo*",
@@ -6154,7 +7510,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/591",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchemo*",
@@ -6163,7 +7521,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/592",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Suben",
@@ -6172,7 +7532,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/593",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumo*",
@@ -6181,7 +7543,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/594",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimshio*",
@@ -6190,7 +7554,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/595",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 29/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenbemo*",
@@ -6199,7 +7565,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/596",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shatio*",
@@ -6208,7 +7576,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/597",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nribemo*",
@@ -6217,7 +7587,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/598",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "yanthi*",
@@ -6226,7 +7598,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/599",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womongo*",
@@ -6235,7 +7609,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/600",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenio*",
@@ -6244,7 +7620,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/601",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chiben*",
@@ -6253,7 +7631,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/602",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonkao*",
@@ -6262,7 +7642,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/603",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchbi",
@@ -6271,7 +7653,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/604",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo",
@@ -6280,7 +7664,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/605",
     "issue_date": "20/10/2008",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanban*",
@@ -6289,7 +7675,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/606",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nribemo*",
@@ -6298,7 +7686,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/607",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrithung*",
@@ -6307,7 +7697,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/608",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khomen*",
@@ -6316,7 +7708,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/609",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrinyimo*",
@@ -6325,7 +7719,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/610",
     "issue_date": "20/10/2008",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mary*",
@@ -6334,7 +7730,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/611",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R.Thungdemo*",
@@ -6343,7 +7741,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/612",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobomo*",
@@ -6352,7 +7752,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/613",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kilow*",
@@ -6361,7 +7763,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/614",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungjan",
@@ -6370,7 +7774,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/615",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonthung*",
@@ -6379,7 +7785,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/616",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyamo.K*",
@@ -6388,7 +7796,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/617",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chibemo*",
@@ -6397,7 +7807,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/618",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tumbemo*",
@@ -6406,7 +7818,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/619",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abei*",
@@ -6415,7 +7829,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/620",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbi*",
@@ -6424,7 +7840,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/621",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsamongo*",
@@ -6433,7 +7851,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/622",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao*",
@@ -6442,7 +7862,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/623",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 1/4/2020; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbenthung",
@@ -6451,7 +7873,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/624",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rasamo",
@@ -6460,7 +7884,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/625",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonyamo*",
@@ -6469,7 +7895,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/626",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libemo",
@@ -6478,7 +7906,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/627",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M.John",
@@ -6487,7 +7917,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/628",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20094******"
   },
   {
     "name": "Thungchibemo",
@@ -6496,7 +7928,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/629",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "William*",
@@ -6505,7 +7939,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/630",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyibeni*",
@@ -6514,7 +7950,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/631",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Easther*",
@@ -6523,7 +7961,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/632",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbemo*",
@@ -6532,7 +7972,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/633",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungjanbemo",
@@ -6541,7 +7983,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/634",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobanthung",
@@ -6550,7 +7994,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/635",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shoben*",
@@ -6559,7 +8005,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/636",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsuthung",
@@ -6568,7 +8016,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/637",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nchumthung*",
@@ -6577,7 +8027,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/638",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhanjanvu*",
@@ -6586,7 +8038,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/639",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sovung*",
@@ -6595,7 +8049,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/640",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonny",
@@ -6604,7 +8060,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/641",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nlumsanga*",
@@ -6613,7 +8071,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/642",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sorenthung*",
@@ -6622,7 +8082,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/643",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanasao*",
@@ -6631,7 +8093,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/644",
     "issue_date": "4/4/2013",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni",
@@ -6640,7 +8104,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/645",
     "issue_date": "4/4/2013",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "1006100******"
   },
   {
     "name": "MHONDAMO*",
@@ -6649,7 +8115,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/647",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RHANBEMO*",
@@ -6658,7 +8126,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/648",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "OPONTHUNG*",
@@ -6667,7 +8137,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/649",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 24/4/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 24/4/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Obonthung Lotha",
@@ -6676,7 +8148,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/649",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ABEMO*",
@@ -6685,7 +8159,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/650",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "SACHUMO",
@@ -6694,7 +8170,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/651",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PITHUNGO",
@@ -6703,7 +8181,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/652",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ONEMO*",
@@ -6712,7 +8192,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/653",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 10/4/2024; Reason: unwilling to work",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Orenbomo M Kithan",
@@ -6721,7 +8203,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/653",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "SHANCHOBENI*",
@@ -6730,7 +8214,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/654",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIMATHUNG",
@@ -6739,7 +8225,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/655",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LICHAMO*",
@@ -6748,7 +8236,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/656",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIREMO*",
@@ -6757,7 +8247,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/657",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "SHAMOMO*",
@@ -6766,7 +8258,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/658",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMO*",
@@ -6775,7 +8269,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/659",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "CHEMIO*",
@@ -6784,7 +8280,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/660",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "THUNGJAMO*",
@@ -6793,7 +8291,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/661",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ABENTHUNG*",
@@ -6802,7 +8302,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/662",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "AIWA*",
@@ -6811,7 +8313,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/663",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMBEMO*",
@@ -6820,7 +8324,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/664",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MHONYAMO*",
@@ -6829,7 +8335,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/665",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "KHADAO*",
@@ -6838,7 +8346,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/666",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LONGSHITHUNG*",
@@ -6847,7 +8357,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/667",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MONGTHUNGO*",
@@ -6856,7 +8368,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/668",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "YAMPOTHUNG",
@@ -6865,7 +8379,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/669",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMBEMO",
@@ -6874,7 +8390,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/670",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NTSEMO*",
@@ -6883,7 +8401,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/671",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 30/7/2025; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PITHUNGO*",
@@ -6892,7 +8412,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/672",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RABENI*",
@@ -6901,7 +8423,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/673",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "THUNGBENI*",
@@ -6910,7 +8434,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/674",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MHATHUNG",
@@ -6919,7 +8445,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/675",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20201******"
   },
   {
     "name": "CHOBATHUNG*",
@@ -6928,7 +8456,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/676",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMTHUNG*",
@@ -6937,7 +8467,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/677",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MOTSUTHUNG*",
@@ -6946,7 +8478,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/678",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RONI*",
@@ -6955,7 +8489,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/679",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RAJAMO*",
@@ -6964,7 +8500,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/680",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "KHYOTHUNGO*",
@@ -6973,7 +8511,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/681",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "OPONSALE*",
@@ -6982,7 +8522,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/682",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ARHONI",
@@ -6991,7 +8533,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/683",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RHONSUTHUNG*",
@@ -7000,7 +8544,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/684",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "YIBEN",
@@ -7009,7 +8555,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/685",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "YAMAO*",
@@ -7018,7 +8566,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/686",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "EKON",
@@ -7027,7 +8577,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/687",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "EKYEMO*",
@@ -7036,7 +8588,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/688",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RHONTHUNGO*",
@@ -7045,7 +8599,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/689",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIBEMO*",
@@ -7054,7 +8610,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/690",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PETHUNGO*",
@@ -7063,7 +8621,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/691",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RASALI*",
@@ -7072,7 +8632,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/692",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "SABENI*",
@@ -7081,7 +8643,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/693",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MYINGTHUNGLO*",
@@ -7090,7 +8654,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/694",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "VANCHAMO*",
@@ -7099,7 +8665,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/695",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIBENTHUNG",
@@ -7108,7 +8676,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/696",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "32333******"
   },
   {
     "name": "KIMONGO*",
@@ -7117,7 +8687,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/697",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "JAMES*",
@@ -7126,7 +8698,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/698",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "AKHYALO*",
@@ -7135,7 +8709,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/699",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MHONBEMO*",
@@ -7144,7 +8720,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/700",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Not willing to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LIBEMO*",
@@ -7153,7 +8731,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/701",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MANCHIO",
@@ -7162,7 +8742,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/702",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "WILLIAM*",
@@ -7171,7 +8753,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/703",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMTHUNG",
@@ -7180,7 +8764,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/704",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PISAMO*",
@@ -7189,7 +8775,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/705",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RENJAMO*",
@@ -7198,7 +8786,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/706",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RAMONGI*",
@@ -7207,7 +8797,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/707",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "MAILA*",
@@ -7216,7 +8808,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/708",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NONGOTHUNG",
@@ -7225,7 +8819,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/709",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "YAMPOTHUNG*",
@@ -7234,7 +8830,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/710",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "SHENJAMO",
@@ -7243,7 +8841,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/711",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "PISAMOO*",
@@ -7252,7 +8852,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/712",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 20/10/2024; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "RENCHITHUNG*",
@@ -7261,7 +8863,9 @@ const jobCardData = [
     "age": "19",
     "job_card": "NL-04-003-003-003/713",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ORENTHUNG*",
@@ -7270,7 +8874,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/714",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NZAMO*",
@@ -7279,7 +8885,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/715",
     "issue_date": "5/5/2014",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NCHUMBENI",
@@ -7288,7 +8896,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/716",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "AJANO",
@@ -7297,7 +8907,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/717",
     "issue_date": "5/5/2014",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "CHUMCHANO TSOPOE",
@@ -7306,7 +8918,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/719",
     "issue_date": "25/6/2018",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "WOSUMI TSOPOE",
@@ -7315,7 +8929,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/720",
     "issue_date": "25/6/2018",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lawrence Kithan",
@@ -7324,7 +8940,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/721",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchamo Odyuo*",
@@ -7333,7 +8951,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/722",
     "issue_date": "25/5/2023",
-    "remarks": "Deleted w.e.f. 20/5/2023; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 20/5/2023; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chenithung Humtsoe",
@@ -7342,7 +8962,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/722",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abenthung Tsopoe",
@@ -7351,7 +8973,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/723",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41250******"
   },
   {
     "name": "Benthungo Odyuo",
@@ -7360,7 +8984,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/724",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "P Thungchanbemo Odyuo",
@@ -7369,7 +8995,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/725",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumo P",
@@ -7378,7 +9006,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/726",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi Shitiri",
@@ -7387,7 +9017,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/727",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumdemu Enny",
@@ -7396,7 +9028,9 @@ const jobCardData = [
     "age": "77",
     "job_card": "NL-04-003-003-003/728",
     "issue_date": "25/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Khyingro Odyuo*",
@@ -7405,7 +9039,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/729",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumyani",
@@ -7414,7 +9050,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/730",
     "issue_date": "20/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libeni Tsopoe",
@@ -7423,7 +9061,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/731",
     "issue_date": "20/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsanyimi Kithan",
@@ -7432,7 +9072,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/732",
     "issue_date": "20/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yikhyau Odyuo",
@@ -7441,7 +9083,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/733",
     "issue_date": "20/5/2023",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Y Zana Tsopoe",
@@ -7450,7 +9094,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/734",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chibeni Kithan",
@@ -7459,7 +9105,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/735",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Echamo Odyuo",
@@ -7468,7 +9116,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/736",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yankhorao Shitiri",
@@ -7477,7 +9127,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/737",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35022******"
   },
   {
     "name": "Ezomo Odyuo",
@@ -7486,7 +9138,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/738",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20421******"
   },
   {
     "name": "Abeni",
@@ -7495,7 +9149,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/739",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41222******"
   },
   {
     "name": "Wobenthung Odyuo",
@@ -7504,7 +9160,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/740",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abilo Ovung",
@@ -7513,7 +9171,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/741",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nzano Enny",
@@ -7522,7 +9182,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/742",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Mhayani Enny",
@@ -7531,7 +9193,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/743",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Echungbeni Odyuo",
@@ -7540,7 +9204,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/744",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Longshi Odyuo",
@@ -7549,7 +9215,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/745",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40858******"
   },
   {
     "name": "Alono Odyuo",
@@ -7558,7 +9226,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/746",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chumbeno Enni",
@@ -7567,7 +9237,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/747",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33206******"
   },
   {
     "name": "P Nichethung",
@@ -7576,7 +9248,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/748",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Womoni Shitiri",
@@ -7585,7 +9259,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/749",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Renchumi T Odyuo",
@@ -7594,7 +9270,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/750",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40148******"
   },
   {
     "name": "C Aaron",
@@ -7603,7 +9281,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/751",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40150******"
   },
   {
     "name": "Mhao Tungoe",
@@ -7612,7 +9292,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/752",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yisali tungoe",
@@ -7621,7 +9303,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/753",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Limathung Odyuo",
@@ -7630,7 +9314,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/754",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rosalane odyuo",
@@ -7639,7 +9325,9 @@ const jobCardData = [
     "age": "64",
     "job_card": "NL-04-003-003-003/755",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35703******"
   },
   {
     "name": "Lotus Odyuo",
@@ -7648,7 +9336,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/756",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43938******"
   },
   {
     "name": "Zubeni odyuo",
@@ -7657,7 +9347,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/757",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20233******"
   },
   {
     "name": "Yinyimi",
@@ -7666,7 +9358,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/758",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benathung odyuo",
@@ -7675,7 +9369,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/759",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "34953******"
   },
   {
     "name": "Chanchilo Odyuo",
@@ -7684,7 +9380,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/760",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Lumjano Tungoe",
@@ -7693,7 +9391,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/761",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Dekia Odyuo",
@@ -7702,7 +9402,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/762",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Daniel Odyuo",
@@ -7711,7 +9413,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/763",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20333******"
   },
   {
     "name": "Benthunglo Kinghen",
@@ -7720,7 +9424,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/764",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Mhalo Kikon",
@@ -7729,7 +9435,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/765",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "K Jonah",
@@ -7738,7 +9446,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/766",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41457******"
   },
   {
     "name": "Lotsuv Kinghen",
@@ -7747,7 +9457,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/767",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36689******"
   },
   {
     "name": "Y Lilamo Ennio",
@@ -7756,7 +9468,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/768",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bario Kithan",
@@ -7765,7 +9479,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/769",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuchamo Kithan",
@@ -7774,7 +9490,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/770",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Emamo Enny",
@@ -7783,7 +9501,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/771",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimbeni Patton",
@@ -7792,7 +9512,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/772",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yibemo Kithan",
@@ -7801,7 +9523,9 @@ const jobCardData = [
     "age": "78",
     "job_card": "NL-04-003-003-003/773",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chonben Kithan",
@@ -7810,7 +9534,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/774",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Njano Ennio",
@@ -7819,7 +9545,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/775",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Phyosao Patton",
@@ -7828,7 +9556,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/776",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yihano patton",
@@ -7837,7 +9567,9 @@ const jobCardData = [
     "age": "74",
     "job_card": "NL-04-003-003-003/777",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tumbeno Odyuo",
@@ -7846,7 +9578,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/778",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lozano",
@@ -7855,7 +9589,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/779",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungmoni Kithan",
@@ -7864,7 +9600,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/780",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Zumchilo",
@@ -7873,7 +9611,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/781",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20432******"
   },
   {
     "name": "Barishumi Kithan",
@@ -7882,7 +9622,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/782",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Senjumbeni kikon",
@@ -7891,7 +9633,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/783",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungsali Kithan",
@@ -7900,7 +9644,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/784",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38560******"
   },
   {
     "name": "Mhademo Kithan",
@@ -7909,7 +9655,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/785",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhayani Jami",
@@ -7918,7 +9666,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/786",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chimomo Kithan",
@@ -7927,7 +9677,9 @@ const jobCardData = [
     "age": "88",
     "job_card": "NL-04-003-003-003/787",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrhono Patton",
@@ -7936,7 +9688,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/788",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38857******"
   },
   {
     "name": "Augstine Patton",
@@ -7945,7 +9699,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/789",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzamongi Humtsoe",
@@ -7954,7 +9710,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/790",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbeni Humstoe",
@@ -7963,7 +9721,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/791",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubenthung Humstoe",
@@ -7972,7 +9732,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/792",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mongthungo Humstoe",
@@ -7981,7 +9743,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/793",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonyimi Patton",
@@ -7990,7 +9754,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/794",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Areno Patton",
@@ -7999,7 +9765,9 @@ const jobCardData = [
     "age": "80",
     "job_card": "NL-04-003-003-003/795",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni Patton",
@@ -8008,7 +9776,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/796",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Lucy Patton",
@@ -8017,7 +9787,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/797",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yilumo Patton",
@@ -8026,7 +9798,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/798",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzano Ezung",
@@ -8035,7 +9809,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/799",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "zaben Patton",
@@ -8044,7 +9820,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/800",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pvuchithung Patton",
@@ -8053,7 +9831,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/801",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elizabeth Kithan",
@@ -8062,7 +9842,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/802",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumbeni Patton",
@@ -8071,7 +9853,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/803",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Abemo Kithan",
@@ -8080,7 +9864,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/804",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Bonthungo Kithan",
@@ -8089,7 +9875,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/805",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonimo Tsopoe",
@@ -8098,7 +9886,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/806",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lipenthung Kikon",
@@ -8107,7 +9897,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/807",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhanchamu Patton",
@@ -8116,7 +9908,9 @@ const jobCardData = [
     "age": "85",
     "job_card": "NL-04-003-003-003/808",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonthung Kithan",
@@ -8125,7 +9919,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/809",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "N Abel kinghen",
@@ -8134,7 +9930,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/810",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bilano Odyuo",
@@ -8143,7 +9941,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/811",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Mhonbeni tsopoe",
@@ -8152,7 +9952,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/812",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanrhoni E Kithan",
@@ -8161,7 +9963,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/813",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchenthung E Kithan",
@@ -8170,7 +9974,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/814",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sandemo E Kithan",
@@ -8179,7 +9985,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/815",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lothungu Tsopoe",
@@ -8188,7 +9996,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/816",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungjanbeni M Tsopoe",
@@ -8197,7 +10007,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/817",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyibeni Tsopoe",
@@ -8206,7 +10018,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/818",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y chumbeni",
@@ -8215,7 +10029,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/819",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumjano Kithan",
@@ -8224,7 +10040,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/820",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yithungo S Tsopoe",
@@ -8233,7 +10051,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/821",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20306******"
   },
   {
     "name": "Mary Kithan",
@@ -8242,7 +10062,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/822",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni Tsopoe",
@@ -8251,7 +10073,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/823",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37756******"
   },
   {
     "name": "Jomoni Jami",
@@ -8260,7 +10084,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/824",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37094******"
   },
   {
     "name": "Wobeni Enny",
@@ -8269,7 +10095,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/825",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Atheo Kithan",
@@ -8278,7 +10106,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/826",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aben N kithan",
@@ -8287,7 +10117,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/827",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33181******"
   },
   {
     "name": "Zanabeni odyuo",
@@ -8296,7 +10128,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/828",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Prescilla Tsopoe",
@@ -8305,7 +10139,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/829",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31893******"
   },
   {
     "name": "Martha Tsopoe",
@@ -8314,7 +10150,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/830",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenibemo S Tsopoe",
@@ -8323,7 +10161,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/831",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20303******"
   },
   {
     "name": "Rosaline N Khenchung",
@@ -8332,7 +10172,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/832",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longrhoni w Patton",
@@ -8341,7 +10183,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/833",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshibemo Tsopoe",
@@ -8350,7 +10194,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/834",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rose Tsopoe",
@@ -8359,7 +10205,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/835",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20338******"
   },
   {
     "name": "Zanthungo Kithan",
@@ -8368,7 +10216,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/836",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Zajano y",
@@ -8377,7 +10227,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/837",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenrano Jami",
@@ -8386,7 +10238,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/838",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lotsani",
@@ -8395,7 +10249,9 @@ const jobCardData = [
     "age": "78",
     "job_card": "NL-04-003-003-003/839",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nrhono Tsopoe",
@@ -8404,7 +10260,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/840",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "K Wochothung Tsopoe",
@@ -8413,7 +10271,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/841",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37810******"
   },
   {
     "name": "Chumbeno L Tsopoe",
@@ -8422,7 +10282,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/842",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ezanthung K kithan",
@@ -8431,7 +10293,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/843",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thamoni Patton",
@@ -8440,7 +10304,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/844",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ayiingla Humtsoe",
@@ -8449,7 +10315,9 @@ const jobCardData = [
     "age": "77",
     "job_card": "NL-04-003-003-003/845",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ajanbeni Tsopoe",
@@ -8458,7 +10326,9 @@ const jobCardData = [
     "age": "19",
     "job_card": "NL-04-003-003-003/846",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lideno Tsopoe",
@@ -8467,7 +10337,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/847",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "39788******"
   },
   {
     "name": "Angela Shitiri",
@@ -8476,7 +10348,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/848",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdeno Shitiri",
@@ -8485,7 +10359,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/849",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Punnolo Okhyopuvi",
@@ -8494,7 +10370,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/850",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Ashenthung Shiteri",
@@ -8503,7 +10381,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/851",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31473******"
   },
   {
     "name": "Chandemo",
@@ -8512,7 +10392,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/852",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41286******"
   },
   {
     "name": "Thungjanbeni Kithan",
@@ -8521,7 +10403,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/853",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi Kithan",
@@ -8530,7 +10414,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/854",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41286******"
   },
   {
     "name": "Phyochumi Tsopoe",
@@ -8539,7 +10425,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/855",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yantsani Tsopoe",
@@ -8548,7 +10436,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/856",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyamongo Z Tsopoe",
@@ -8557,7 +10447,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/857",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "34976******"
   },
   {
     "name": "Chumbani Kithan",
@@ -8566,7 +10458,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/858",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "44077******"
   },
   {
     "name": "M Lavano Yanthan",
@@ -8575,7 +10469,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/859",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Roben Humtsoe",
@@ -8584,7 +10480,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/860",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benchumo Kithan",
@@ -8593,7 +10491,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/861",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni Enney",
@@ -8602,7 +10502,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/862",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33992******"
   },
   {
     "name": "Oreno Tsopoe",
@@ -8611,7 +10513,9 @@ const jobCardData = [
     "age": "82",
     "job_card": "NL-04-003-003-003/863",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37063******"
   },
   {
     "name": "Ritseno Tsopoe",
@@ -8620,7 +10524,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/864",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Rose",
@@ -8629,7 +10535,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/865",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Echungbemo S Tsopoe",
@@ -8638,7 +10546,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/866",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lothungu Jami",
@@ -8647,7 +10557,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/867",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Ethel Ennio",
@@ -8656,7 +10568,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/868",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38757******"
   },
   {
     "name": "Tumchobemo Shitiri",
@@ -8665,7 +10579,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/869",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kilumo Enny",
@@ -8674,7 +10590,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/870",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20328******"
   },
   {
     "name": "R Yenkilo Odyuo",
@@ -8683,7 +10601,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/871",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610091******"
   },
   {
     "name": "Renchumi Kinghen",
@@ -8692,7 +10612,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/872",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhomo Tsopoe",
@@ -8701,7 +10623,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/873",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Elisha T Ennie",
@@ -8710,7 +10634,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/874",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chonchithung Tungoe",
@@ -8719,7 +10645,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/875",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Yilobemo",
@@ -8728,7 +10656,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/876",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33736******"
   },
   {
     "name": "Chumchano Tungoi",
@@ -8737,7 +10667,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/877",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhalo Odyuo",
@@ -8746,7 +10678,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/878",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35705******"
   },
   {
     "name": "Benchumi Odyuo",
@@ -8755,7 +10689,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/879",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Suremo Odyuo",
@@ -8764,7 +10700,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/880",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20372******"
   },
   {
     "name": "R Lichumlo",
@@ -8773,7 +10711,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/881",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33261******"
   },
   {
     "name": "N Rhonbeni Yanthan",
@@ -8782,7 +10722,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/882",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bremey Kinghen",
@@ -8791,7 +10733,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/883",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhonbeni M lotha",
@@ -8800,7 +10744,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/884",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao Kinghen",
@@ -8809,7 +10755,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/885",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20306******"
   },
   {
     "name": "Yanpani",
@@ -8818,7 +10766,9 @@ const jobCardData = [
     "age": "76",
     "job_card": "NL-04-003-003-003/886",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khochev Enny",
@@ -8827,7 +10777,9 @@ const jobCardData = [
     "age": "76",
     "job_card": "NL-04-003-003-003/887",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonchiv Odyuo",
@@ -8836,7 +10788,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/888",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35705******"
   },
   {
     "name": "Sulanthung Shitiri",
@@ -8845,7 +10799,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/889",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chobhalo kinghen",
@@ -8854,7 +10810,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/890",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Zanbenthung Kinghen",
@@ -8863,7 +10821,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/891",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ethel Shitiri",
@@ -8872,7 +10832,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/892",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Lichumlo Shitiri",
@@ -8881,7 +10843,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/893",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Wochobeni lotha",
@@ -8890,7 +10854,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/894",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "32985******"
   },
   {
     "name": "Liyingbeni Odyuo",
@@ -8899,7 +10865,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/895",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meriyani",
@@ -8908,7 +10876,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/896",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Loyibeni W patton",
@@ -8917,7 +10887,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/897",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Zubeni patton",
@@ -8926,7 +10898,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/898",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ali Jungio",
@@ -8935,7 +10909,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/899",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungbeni Patton",
@@ -8944,7 +10920,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/900",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ruthy Patton",
@@ -8953,7 +10931,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/901",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Soyingbeni Humtsoe",
@@ -8962,7 +10942,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/902",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbeni Z Murry",
@@ -8971,7 +10953,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/903",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Lumdemu Kithan",
@@ -8980,7 +10964,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/904",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Account bank not found",
+    "account_number": "100610006******"
   },
   {
     "name": "Oded Humtsoe",
@@ -8989,7 +10975,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/905",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzilo Patton",
@@ -8998,7 +10986,9 @@ const jobCardData = [
     "age": "70",
     "job_card": "NL-04-003-003-003/906",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Epibeni Kithan",
@@ -9007,7 +10997,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/907",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "India Post Payments Bank",
+    "account_number": "038110******"
   },
   {
     "name": "Janbeni Shitiri",
@@ -9016,7 +11008,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/908",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungchano Humtsoe",
@@ -9025,7 +11019,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/909",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vamoni Patton",
@@ -9034,7 +11030,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/910",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thomoni Patton",
@@ -9043,7 +11041,9 @@ const jobCardData = [
     "age": "71",
     "job_card": "NL-04-003-003-003/911",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumoni Patton",
@@ -9052,7 +11052,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/912",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phanrhoni Humstoe",
@@ -9061,7 +11063,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/913",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wolumi Patton",
@@ -9070,7 +11074,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/914",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumben kithan",
@@ -9079,7 +11085,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/915",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35122******"
   },
   {
     "name": "Nnungshumi Kithan",
@@ -9088,7 +11096,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/916",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Grace Kithan",
@@ -9097,7 +11107,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/917",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Jonas Kithan",
@@ -9106,7 +11118,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/918",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "T Lichani Humtsoe",
@@ -9115,7 +11129,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/919",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Achumlo humstoe",
@@ -9124,7 +11140,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/920",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Anyimro Patton",
@@ -9133,7 +11151,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/921",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renben Humtsoe",
@@ -9142,7 +11162,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/922",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wolumi Humstoe",
@@ -9151,7 +11173,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/923",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nthungyamo humstoe",
@@ -9160,7 +11184,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/924",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimtseno Kithan",
@@ -9169,7 +11195,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/925",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanbeni patton",
@@ -9178,7 +11206,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/926",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabamo Patton",
@@ -9187,7 +11217,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/927",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38761******"
   },
   {
     "name": "S Vamoni patton",
@@ -9196,7 +11228,9 @@ const jobCardData = [
     "age": "80",
     "job_card": "NL-04-003-003-003/928",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonlumi Patton",
@@ -9205,7 +11239,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/929",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Akyono Kithan",
@@ -9214,7 +11250,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/930",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Loyibeni Humtsoe",
@@ -9223,7 +11261,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/931",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pichamo patton",
@@ -9232,7 +11272,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/932",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsalamo patton",
@@ -9241,7 +11283,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/933",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31591******"
   },
   {
     "name": "Nchumlo Humstoe",
@@ -9250,7 +11294,9 @@ const jobCardData = [
     "age": "80",
     "job_card": "NL-04-003-003-003/934",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchilo Patton",
@@ -9259,7 +11305,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/935",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mercy Yanthan",
@@ -9268,7 +11316,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/936",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yiponi",
@@ -9277,7 +11327,9 @@ const jobCardData = [
     "age": "77",
     "job_card": "NL-04-003-003-003/937",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Veronica Humtsoe",
@@ -9286,7 +11338,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/938",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Mhonbemo Humtsoe",
@@ -9295,7 +11349,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/939",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Gloria Humtsoe",
@@ -9304,7 +11360,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/940",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lolano patton",
@@ -9313,7 +11371,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/941",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbeni Patton",
@@ -9322,7 +11382,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/942",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungyani Shitiri",
@@ -9331,7 +11393,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/943",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni Humtsoe",
@@ -9340,7 +11404,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/944",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zachamo vincent Humtsoe",
@@ -9349,7 +11415,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/945",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbonthung Erui",
@@ -9358,7 +11426,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/946",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38938******"
   },
   {
     "name": "Terance Patton",
@@ -9367,7 +11437,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/947",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myingthunglo Patton",
@@ -9376,7 +11448,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/948",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchokalo Humtsoe",
@@ -9385,7 +11459,9 @@ const jobCardData = [
     "age": "71",
     "job_card": "NL-04-003-003-003/949",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenzamo patton",
@@ -9394,7 +11470,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/950",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meriyani P kithan",
@@ -9403,7 +11481,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/951",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbolumi Patton",
@@ -9412,7 +11492,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/952",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lizamo Patton",
@@ -9421,7 +11503,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/953",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Athungbeni Patton",
@@ -9430,7 +11514,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/954",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Stephen E Patton",
@@ -9439,7 +11525,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/955",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "T Zubemo Kithan",
@@ -9448,7 +11536,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/956",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35765******"
   },
   {
     "name": "Martha kithan",
@@ -9457,7 +11547,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/957",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pilano R Kithan",
@@ -9466,7 +11558,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/958",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lawrance Patton",
@@ -9475,7 +11569,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/959",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Lokyonglo",
@@ -9484,7 +11580,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/960",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31855******"
   },
   {
     "name": "Mhonlumi Kithan",
@@ -9493,7 +11591,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/961",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Yinimi Kithan",
@@ -9502,7 +11602,9 @@ const jobCardData = [
     "age": "95",
     "job_card": "NL-04-003-003-003/962",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kumchio Humtsoe",
@@ -9511,7 +11613,9 @@ const jobCardData = [
     "age": "74",
     "job_card": "NL-04-003-003-003/963",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbeni Kithan",
@@ -9520,7 +11624,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/964",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Thungbeni odyuo",
@@ -9529,7 +11635,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/965",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Oponium Kinghen",
@@ -9538,7 +11646,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/966",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Amos Odyuo",
@@ -9547,7 +11657,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/967",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36688******"
   },
   {
     "name": "Elanthung Tungoi",
@@ -9556,7 +11668,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/968",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jamithung S Jami",
@@ -9565,7 +11679,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/969",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zaben Odyuo",
@@ -9574,7 +11690,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/970",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36686******"
   },
   {
     "name": "Toribeni Kikon",
@@ -9583,7 +11701,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/971",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orentsani Kikon",
@@ -9592,7 +11712,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/972",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yichongi Kikon",
@@ -9601,7 +11723,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/973",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Achumlo L kikon",
@@ -9610,7 +11734,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/974",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ntseno Tungoe",
@@ -9619,7 +11745,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/975",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Abenthung Tungoe",
@@ -9628,7 +11756,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/976",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanboni Tungoi",
@@ -9637,7 +11767,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/977",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36690******"
   },
   {
     "name": "Ajamo",
@@ -9646,7 +11778,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/978",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yanben Tungoe",
@@ -9655,7 +11789,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/979",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thechano",
@@ -9664,7 +11800,9 @@ const jobCardData = [
     "age": "56",
     "job_card": "NL-04-003-003-003/980",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Mungyanthung Mozhui",
@@ -9673,7 +11811,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/981",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40083******"
   },
   {
     "name": "Yanshumthung odyuo",
@@ -9682,7 +11822,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/982",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "41846******"
   },
   {
     "name": "Rahamo Shitiri",
@@ -9691,7 +11833,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/983",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nyorhoni Odyuo",
@@ -9700,7 +11844,9 @@ const jobCardData = [
     "age": "76",
     "job_card": "NL-04-003-003-003/984",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Soyingbeni",
@@ -9709,7 +11855,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/985",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni Odyuo",
@@ -9718,7 +11866,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/986",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Orenboni Odyuo",
@@ -9727,7 +11877,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/987",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Account bank not found",
+    "account_number": "100610015******"
   },
   {
     "name": "Khyobamo Enny",
@@ -9736,7 +11888,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/988",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zareni Yanthan",
@@ -9745,7 +11899,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/989",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wobeni Kinghen",
@@ -9754,7 +11910,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/990",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "James Kithan",
@@ -9763,7 +11921,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/991",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "A Emilo Kinghen",
@@ -9772,7 +11932,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/992",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zaben C",
@@ -9781,7 +11943,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/993",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mangio",
@@ -9790,7 +11954,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/994",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanjamo Patton*",
@@ -9799,7 +11965,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/994",
     "issue_date": "26/4/2024",
-    "remarks": "Deleted w.e.f. 24/9/2024; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 24/9/2024; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khudemo Humtsoe",
@@ -9808,7 +11976,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/994",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lijanthung Kinghen",
@@ -9817,7 +11987,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/995",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "UCO Bank",
+    "account_number": "23630110******"
   },
   {
     "name": "K Yanben",
@@ -9826,7 +11998,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/996",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sarah",
@@ -9835,7 +12009,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/997",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Tumchobeni Tsopoe",
@@ -9844,7 +12020,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/998",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renjani Humtsoe",
@@ -9853,7 +12031,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/999",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonrao Tsopoe",
@@ -9862,7 +12042,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1000",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbi Tsopoe",
@@ -9871,7 +12053,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1001",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Suthunglo patton",
@@ -9880,7 +12064,9 @@ const jobCardData = [
     "age": "74",
     "job_card": "NL-04-003-003-003/1002",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Nremu Patton",
@@ -9889,7 +12075,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/1003",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "UCO Bank",
+    "account_number": "35033211******"
   },
   {
     "name": "Yanben Patton",
@@ -9898,7 +12086,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1004",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumi Kithan",
@@ -9907,7 +12097,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1005",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Suyio Kithan",
@@ -9916,7 +12108,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1006",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ezanbemo Kithan",
@@ -9925,7 +12119,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1007",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchuponi Kithan",
@@ -9934,7 +12130,9 @@ const jobCardData = [
     "age": "73",
     "job_card": "NL-04-003-003-003/1008",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobeni Kithan",
@@ -9943,7 +12141,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/1009",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Oreno Kithan",
@@ -9952,7 +12152,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1010",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chulorhomo Lotha",
@@ -9961,7 +12163,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1011",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyani",
@@ -9970,7 +12174,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1012",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochoni Kithan",
@@ -9979,7 +12185,9 @@ const jobCardData = [
     "age": "72",
     "job_card": "NL-04-003-003-003/1013",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "10061006******"
   },
   {
     "name": "Zubeni Kithan",
@@ -9988,7 +12196,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/1014",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzano N Kithan",
@@ -9997,7 +12207,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1015",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenyani",
@@ -10006,7 +12218,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1016",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20148******"
   },
   {
     "name": "Lily Enny",
@@ -10015,7 +12229,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1017",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Hathunglo Enny",
@@ -10024,7 +12240,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1018",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "36690******"
   },
   {
     "name": "Yitsabemo Enny",
@@ -10033,7 +12251,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1019",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Richard Enny",
@@ -10042,7 +12262,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1020",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenrolo Patton",
@@ -10051,7 +12273,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/1021",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nribeni Patton",
@@ -10060,7 +12284,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/1022",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "R Mhonrali Tsopoe",
@@ -10069,7 +12295,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1023",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyivani Tsopoe",
@@ -10078,7 +12306,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1024",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdeno Humtsoe",
@@ -10087,7 +12317,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1025",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuthungbeni Kithan",
@@ -10096,7 +12328,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1026",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Yanbeni Kithan",
@@ -10105,7 +12339,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1027",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "42260******"
   },
   {
     "name": "Mhonchumo Patton",
@@ -10114,7 +12350,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1028",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elias",
@@ -10123,7 +12361,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1029",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanjamo Patton",
@@ -10132,7 +12372,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1030",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonthungu",
@@ -10141,7 +12383,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/1031",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Z Yitsabemo Tsopoe",
@@ -10150,7 +12394,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1032",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pijano tsopoe",
@@ -10159,7 +12405,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1033",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbeni",
@@ -10168,7 +12416,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1034",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumthungo R Tsopoe",
@@ -10177,7 +12427,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1035",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myinthunglo kithan",
@@ -10186,7 +12438,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1036",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Zuchanbemo Jami",
@@ -10195,7 +12449,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1037",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libeni Patton",
@@ -10204,7 +12460,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/1038",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Bank of Baroda",
+    "account_number": "18830100******"
   },
   {
     "name": "Marithung R Patton",
@@ -10213,7 +12471,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1039",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jandeno Patton",
@@ -10222,7 +12482,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1040",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kilio Patton",
@@ -10231,7 +12493,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/1041",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Albert Patton",
@@ -10240,7 +12504,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1042",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31951******"
   },
   {
     "name": "Yanlumo",
@@ -10249,7 +12515,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1043",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20175******"
   },
   {
     "name": "Chumdeno Kithan",
@@ -10258,7 +12526,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/1044",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nzanbeni Tsopoe",
@@ -10267,7 +12537,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1045",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshithung Kithan",
@@ -10276,7 +12548,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1046",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yizamu Kithan",
@@ -10285,7 +12559,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/1047",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35698******"
   },
   {
     "name": "Kemerelo Tsopoe",
@@ -10294,7 +12570,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1048",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benchilo Humtsoe",
@@ -10303,7 +12581,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1049",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Marina Humtsoe",
@@ -10312,7 +12592,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1050",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubemo Humtsoe",
@@ -10321,7 +12603,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1051",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo Humtsoe",
@@ -10330,7 +12614,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1052",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi Humtsoe",
@@ -10339,7 +12625,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1053",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Woben M humtsoe",
@@ -10348,7 +12636,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1054",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khotseno humtsoe",
@@ -10357,7 +12647,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/1055",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanjamo A Humtsoe",
@@ -10366,7 +12658,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1056",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "H grace Phom",
@@ -10375,7 +12669,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1057",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lithunglo Humtsoe",
@@ -10384,7 +12680,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1058",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni Humtsoe",
@@ -10393,7 +12691,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1059",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumo humtsoe",
@@ -10402,7 +12702,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/1060",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wosuv Lotha",
@@ -10411,7 +12713,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/1061",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumlo Humtsoe",
@@ -10420,7 +12724,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1062",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchano Humtsoe",
@@ -10429,7 +12735,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/1063",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanbeni Humtsoe",
@@ -10438,7 +12746,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1064",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aben Humtsoe",
@@ -10447,7 +12757,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1065",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kialo humtsoe",
@@ -10456,7 +12768,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/1066",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenrhoni Humtsoe",
@@ -10465,7 +12779,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/1067",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Motsuo Humtsoe",
@@ -10474,7 +12790,9 @@ const jobCardData = [
     "age": "77",
     "job_card": "NL-04-003-003-003/1068",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuchobeni Tungoe",
@@ -10483,7 +12801,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1069",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longaroni Odyuo",
@@ -10492,7 +12812,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/1070",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyanthung Kithan",
@@ -10501,7 +12823,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1071",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Thungyani Kithan",
@@ -10510,7 +12834,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1072",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "John Lotha",
@@ -10519,7 +12845,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1073",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "45137******"
   },
   {
     "name": "R Nzanthung",
@@ -10528,7 +12856,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1074",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "India Post Payments Bank",
+    "account_number": "038110******"
   },
   {
     "name": "Ntseno",
@@ -10537,7 +12867,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1075",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Ethel Kithan",
@@ -10546,7 +12878,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1076",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20312******"
   },
   {
     "name": "Chumdemo",
@@ -10555,7 +12889,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1077",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobeni Kithan",
@@ -10564,7 +12900,9 @@ const jobCardData = [
     "age": "75",
     "job_card": "NL-04-003-003-003/1078",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Liban Z Tsapoe",
@@ -10573,7 +12911,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1079",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdemo Shitiri",
@@ -10582,7 +12922,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1080",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Central Bank Of India",
+    "account_number": "3871******"
   },
   {
     "name": "Martha Odyuo",
@@ -10591,7 +12933,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1081",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sulan Odyuo",
@@ -10600,7 +12944,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1082",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43928******"
   },
   {
     "name": "Alyuro A Odyuo",
@@ -10609,7 +12955,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1083",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Likao Kithan",
@@ -10618,7 +12966,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1084",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20328******"
   },
   {
     "name": "Zubeni Lotha",
@@ -10627,7 +12977,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1085",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "C Zuchobeni Ezung",
@@ -10636,7 +12988,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1086",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loreni Ennie",
@@ -10645,7 +12999,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1087",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bonathung Y Lotha",
@@ -10654,7 +13010,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1088",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanthung A Patton",
@@ -10663,7 +13021,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1089",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nongothung A Patton",
@@ -10672,7 +13032,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1090",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rentsamo A Patton",
@@ -10681,7 +13043,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1091",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhayamo Kithan",
@@ -10690,7 +13054,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1092",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38410******"
   },
   {
     "name": "Therali L Kithan",
@@ -10699,7 +13065,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1093",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lishan Tsopoe",
@@ -10708,7 +13076,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1094",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38610******"
   },
   {
     "name": "Pilano Lotha",
@@ -10717,7 +13087,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/1095",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35708******"
   },
   {
     "name": "Yansathung R tsopoe",
@@ -10726,7 +13098,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1096",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "40579******"
   },
   {
     "name": "Oponlumi",
@@ -10735,7 +13109,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1097",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Limachan Tsopoe",
@@ -10744,7 +13120,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1098",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "ICICI BANK",
+    "account_number": "213801******"
   },
   {
     "name": "Thungyani ngullie",
@@ -10753,7 +13131,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1099",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Spacy E Tsopoe",
@@ -10762,7 +13142,9 @@ const jobCardData = [
     "age": "19",
     "job_card": "NL-04-003-003-003/1100",
     "issue_date": "26/4/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanthung shitere",
@@ -10771,7 +13153,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/1101",
     "issue_date": "24/5/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsumongo kithan",
@@ -10780,7 +13164,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1102",
     "issue_date": "5/8/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanban Enny",
@@ -10789,7 +13175,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1103",
     "issue_date": "5/8/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "33826******"
   },
   {
     "name": "Titus odyuo",
@@ -10798,7 +13186,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1104",
     "issue_date": "5/8/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Louis Enni",
@@ -10807,7 +13197,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1105",
     "issue_date": "5/8/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31893******"
   },
   {
     "name": "N Rumphio Odyuo",
@@ -10816,7 +13208,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/1106",
     "issue_date": "5/8/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "34774******"
   },
   {
     "name": "Yantsuthung Patton",
@@ -10825,7 +13219,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1107",
     "issue_date": "14/9/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31581******"
   },
   {
     "name": "Shipen Kinghen",
@@ -10834,7 +13230,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/1108",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Arenthung Patton*",
@@ -10843,7 +13241,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1108",
     "issue_date": "3/3/2025",
-    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "William Tsopoe*",
@@ -10852,7 +13252,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1108",
     "issue_date": "3/3/2025",
-    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsemo Patton",
@@ -10861,7 +13263,9 @@ const jobCardData = [
     "age": "66",
     "job_card": "NL-04-003-003-003/1109",
     "issue_date": "26/9/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "T Yanrenthung Patton",
@@ -10870,7 +13274,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1110",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "W Lokyonglo Tungoe",
@@ -10879,7 +13285,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1111",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbeni enny",
@@ -10888,7 +13296,9 @@ const jobCardData = [
     "age": "71",
     "job_card": "NL-04-003-003-003/1112",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Likyabeni Kithan",
@@ -10897,7 +13307,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1113",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubemo T Humtsoe",
@@ -10906,7 +13318,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1114",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Janbeni ngullie",
@@ -10915,7 +13329,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1115",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wodemo Kithan",
@@ -10924,7 +13340,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1116",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Augustine lotha",
@@ -10933,7 +13351,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1117",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhondemo Y Odyuo",
@@ -10942,7 +13362,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1118",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37777******"
   },
   {
     "name": "Mhonyamo P Odyuo",
@@ -10951,7 +13373,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1119",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lovungi odyuo",
@@ -10960,7 +13384,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1120",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pilano Patton",
@@ -10969,7 +13395,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1121",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Marcus",
@@ -10978,7 +13406,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1122",
     "issue_date": "16/10/2024",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yironthung Humtsoe",
@@ -10987,7 +13417,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1123",
     "issue_date": "24/2/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tumchobemo Patton",
@@ -10996,7 +13428,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1124",
     "issue_date": "24/2/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "42912******"
   },
   {
     "name": "Yilobemo Patton",
@@ -11005,7 +13439,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1125",
     "issue_date": "24/2/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Abeni R Tsopoe",
@@ -11014,7 +13450,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1126",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "K zubenthung",
@@ -11023,7 +13461,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1127",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenchithung Shitio",
@@ -11032,7 +13472,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1128",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abeni K",
@@ -11041,7 +13483,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1129",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chonben Shitio",
@@ -11050,7 +13494,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1130",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobani shitiri",
@@ -11059,7 +13505,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/1131",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khyobenthung shitio",
@@ -11068,7 +13516,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/1132",
     "issue_date": "3/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhalo Kithan",
@@ -11077,7 +13527,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1133",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "W Libemo lotha",
@@ -11086,7 +13538,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1134",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Emilo Kikon",
@@ -11095,7 +13549,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1135",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "W Ekonthung Tungoe",
@@ -11104,7 +13560,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1136",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabeni lotha",
@@ -11113,7 +13571,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/1137",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abeno kithan",
@@ -11122,7 +13582,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1138",
     "issue_date": "4/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renthungo Y Humtsoe",
@@ -11131,7 +13593,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1139",
     "issue_date": "10/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Achumo Jami",
@@ -11140,7 +13604,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1140",
     "issue_date": "10/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo Kinghen",
@@ -11149,7 +13615,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/1141",
     "issue_date": "17/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Orenthung W Odyuo*",
@@ -11158,7 +13626,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1142",
     "issue_date": "18/3/2025",
-    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 18/3/2025; Reason: unwilling to work",
+    "bank": "State Bank of India",
+    "account_number": "43266******"
   },
   {
     "name": "Merithung Humtsoe",
@@ -11167,7 +13637,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1142",
     "issue_date": "18/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43266******"
   },
   {
     "name": "Meribemo Obed Humtsoe",
@@ -11176,7 +13648,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1143",
     "issue_date": "18/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sharon Jami",
@@ -11185,7 +13659,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1144",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pilano",
@@ -11194,7 +13670,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1145",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "T Lichanbeni Patton",
@@ -11203,7 +13681,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1146",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Oreno E Ngullie",
@@ -11212,7 +13692,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1147",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenthungo Kithan",
@@ -11221,7 +13703,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1148",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bendangchila",
@@ -11230,7 +13714,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1149",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumlanbeni Tsopoe",
@@ -11239,7 +13725,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/1150",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumthungo R Tsopoe",
@@ -11248,7 +13736,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1151",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "S Mhono odyuo",
@@ -11257,7 +13747,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1152",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Central Bank Of India",
+    "account_number": "5145******"
   },
   {
     "name": "Thungbemo Tsopoe",
@@ -11266,7 +13758,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/1153",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Benrilo Tsopoe",
@@ -11275,7 +13769,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1154",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Azano Tsopoe",
@@ -11284,7 +13780,9 @@ const jobCardData = [
     "age": "67",
     "job_card": "NL-04-003-003-003/1155",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zabemvu R Tsopoe",
@@ -11293,7 +13791,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1156",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Tsungonchan tsopoe",
@@ -11302,7 +13802,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1157",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Abenthung R Tsopoe",
@@ -11311,7 +13813,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1158",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renchamo Tsopoe",
@@ -11320,7 +13824,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1159",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "L Hoinali Tsopoe",
@@ -11329,7 +13835,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1160",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Glory N odyuo",
@@ -11338,7 +13846,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1161",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumi",
@@ -11347,7 +13857,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/1162",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nongothung N Lotha",
@@ -11356,7 +13868,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1163",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ademo Jami",
@@ -11365,7 +13879,9 @@ const jobCardData = [
     "age": "19",
     "job_card": "NL-04-003-003-003/1164",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "J Khonchamo Shitiri",
@@ -11374,7 +13890,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1165",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenbomo J shiriti",
@@ -11383,7 +13901,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1166",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chenithung J shitiri",
@@ -11392,7 +13912,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1167",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbenthung J shitiri",
@@ -11401,7 +13923,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1168",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lotus J shitiri",
@@ -11410,7 +13934,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1169",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rilanthung Odyuo",
@@ -11419,7 +13945,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1170",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuthungbeni Patton",
@@ -11428,7 +13956,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/1171",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "S Nzanthung Kithan",
@@ -11437,7 +13967,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1172",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "I Anti",
@@ -11446,7 +13978,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1173",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonthungo lotha",
@@ -11455,7 +13989,9 @@ const jobCardData = [
     "age": "63",
     "job_card": "NL-04-003-003-003/1174",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumpeni Lucy C Patton",
@@ -11464,7 +14000,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1175",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "William J Patton",
@@ -11473,7 +14011,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1176",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichanbemo A patton",
@@ -11482,7 +14022,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1177",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbeni Lotha",
@@ -11491,7 +14033,9 @@ const jobCardData = [
     "age": "71",
     "job_card": "NL-04-003-003-003/1178",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Merilo Y Kithan",
@@ -11500,7 +14044,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1179",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung A Patton",
@@ -11509,7 +14055,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1180",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Brisecella Tungoe",
@@ -11518,7 +14066,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1181",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo Tungoe",
@@ -11527,7 +14077,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1182",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi tsopoe",
@@ -11536,7 +14088,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1183",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhademo N odyuo",
@@ -11545,7 +14099,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1184",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumbemo patton",
@@ -11554,7 +14110,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1185",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbeni Patton",
@@ -11563,7 +14121,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1186",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Chumbeni Tsopoe",
@@ -11572,7 +14132,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/1187",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Mhonchumi Tsopoe*",
@@ -11581,7 +14143,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1188",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonchumi*",
@@ -11590,7 +14154,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1188",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyibeni Patton",
@@ -11599,7 +14165,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/1189",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyimjano",
@@ -11608,7 +14176,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1190",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orenboni Odyuo",
@@ -11617,7 +14187,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1191",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rosalen T Tsopoe",
@@ -11626,7 +14198,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1192",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Libeni Tsopoe",
@@ -11635,7 +14209,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1193",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "S Albina",
@@ -11644,7 +14220,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1194",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yambemo Odyuo",
@@ -11653,7 +14231,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1195",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Janbeni patton",
@@ -11662,7 +14242,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1196",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "E Zuchamo Lotha",
@@ -11671,7 +14253,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1197",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "38215******"
   },
   {
     "name": "Myanbeni Lotha",
@@ -11680,7 +14264,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/1198",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zujano T humtsoe",
@@ -11689,7 +14275,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1199",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo Odyuo",
@@ -11698,7 +14286,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1200",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyilo",
@@ -11707,7 +14297,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/1201",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y Noyingbeni odyuo",
@@ -11716,7 +14308,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1202",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y Mhao odyuo",
@@ -11725,7 +14319,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1203",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "S Yidemo odyuo",
@@ -11734,7 +14330,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/1204",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbeni odyuo",
@@ -11743,7 +14341,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1205",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao Tsopoe*",
@@ -11752,7 +14352,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1206",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Tsopoe*",
@@ -11761,7 +14363,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1206",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhabemo Humtsoe",
@@ -11770,7 +14374,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1207",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshibemo Y Patton",
@@ -11779,7 +14385,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1208",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubonthung Y Patton",
@@ -11788,7 +14396,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1209",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Regina Y odyuo",
@@ -11797,7 +14407,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1210",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ezobeni Humtsoe",
@@ -11806,7 +14418,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1211",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vincent Patton",
@@ -11815,7 +14429,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1212",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenio odyuo",
@@ -11824,7 +14440,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1213",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benthungo Lotha",
@@ -11833,7 +14451,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1214",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Stephen N patton",
@@ -11842,7 +14462,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1215",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumi odyuo",
@@ -11851,7 +14473,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1216",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni odyuo",
@@ -11860,7 +14484,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1217",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lucy",
@@ -11869,7 +14495,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1218",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "R Chanpeni Patton",
@@ -11878,7 +14506,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1219",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yilobeni Patton",
@@ -11887,7 +14517,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1220",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuben Tsopoe",
@@ -11896,7 +14528,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1221",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lucy Tsopoe",
@@ -11905,7 +14539,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1222",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yiben T Tsopoe",
@@ -11914,7 +14550,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1223",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanben Jami",
@@ -11923,7 +14561,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1224",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zabeno",
@@ -11932,7 +14572,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1225",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhademo S jami",
@@ -11941,7 +14583,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1226",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichibeni S Jami",
@@ -11950,7 +14594,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1227",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "31960******"
   },
   {
     "name": "Carol Kithan",
@@ -11959,7 +14605,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1228",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nithulo odyuo",
@@ -11968,7 +14616,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/1229",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Elizabeth",
@@ -11977,7 +14627,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1230",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanbono",
@@ -11986,7 +14638,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1231",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "William Tsopoe",
@@ -11995,7 +14649,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1232",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao tungoe*",
@@ -12004,7 +14660,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/1233",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 31/3/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 31/3/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khobeno Tungoe",
@@ -12013,7 +14671,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1233",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungchanbeni R Patton",
@@ -12022,7 +14682,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/1234",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renpenthung Tsopoe",
@@ -12031,7 +14693,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1235",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "John Jami",
@@ -12040,7 +14704,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1236",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Central Bank Of India",
+    "account_number": "5591******"
   },
   {
     "name": "Zuchano Odyuo*",
@@ -12049,7 +14715,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1237",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 31/3/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 31/3/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meribeni L lotha",
@@ -12058,7 +14726,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1237",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "W Ponathung Kinghen",
@@ -12067,7 +14737,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1238",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyingbeni R patton",
@@ -12076,7 +14748,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1239",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbemo kithan",
@@ -12085,7 +14759,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1240",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenthungo Kithan*",
@@ -12094,7 +14770,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1241",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenthungo*",
@@ -12103,7 +14781,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1241",
     "issue_date": "2/4/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chanchibeni Kithan",
@@ -12112,7 +14792,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1242",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loyibeni Tungoe",
@@ -12121,7 +14803,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1243",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ezobeni odyuo",
@@ -12130,7 +14814,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/1244",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lumchano",
@@ -12139,7 +14825,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1245",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungabemo Shitiri",
@@ -12148,7 +14836,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1246",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zurenthung enny",
@@ -12157,7 +14847,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1247",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbemo Tungoe",
@@ -12166,7 +14858,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/1248",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zujamo Kinghen",
@@ -12175,7 +14869,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1250",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Emilo lotha",
@@ -12184,7 +14880,9 @@ const jobCardData = [
     "age": "68",
     "job_card": "NL-04-003-003-003/1251",
     "issue_date": "27/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyingbeni Humtsoe",
@@ -12193,7 +14891,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1252",
     "issue_date": "27/3/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yibeni Tungoe",
@@ -12202,7 +14902,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1253",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Phanjamo C Tungoe",
@@ -12211,7 +14913,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1254",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzan tungoe",
@@ -12220,7 +14924,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1255",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "T Bhanchamo Odyuo",
@@ -12229,7 +14935,9 @@ const jobCardData = [
     "age": "45",
     "job_card": "NL-04-003-003-003/1256",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "C Lideno tungoe",
@@ -12238,7 +14946,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1257",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y Wochobeni odyuo",
@@ -12247,7 +14957,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1258",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "W Sundayla kinghen",
@@ -12256,7 +14968,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/1259",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbemo kikon",
@@ -12265,7 +14979,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1260",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumyani kikon",
@@ -12274,7 +14990,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1261",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Mhademo kikon",
@@ -12283,7 +15001,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1262",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pilano lotha",
@@ -12292,7 +15012,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1263",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenithung Jami",
@@ -12301,7 +15023,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1264",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43944******"
   },
   {
     "name": "Renchumi",
@@ -12310,7 +15034,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1265",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Janbemo tungo",
@@ -12319,7 +15045,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1266",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Moiom phom",
@@ -12328,7 +15056,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1267",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rossel ennio",
@@ -12337,7 +15067,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1268",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyani shitiri",
@@ -12346,7 +15078,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1269",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Dina Ao",
@@ -12355,7 +15089,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1270",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yisanbeni P Kithan",
@@ -12364,7 +15100,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1271",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thunjamo",
@@ -12373,7 +15111,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1272",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsanthung odyuo",
@@ -12382,7 +15122,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1273",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Precilla kithan",
@@ -12391,7 +15133,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1274",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Likyabeni lotha",
@@ -12400,7 +15144,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1275",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ajano odyuo",
@@ -12409,7 +15155,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1276",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbemo odyuo",
@@ -12418,7 +15166,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1277",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "42908******"
   },
   {
     "name": "Benathung odyuo",
@@ -12427,7 +15177,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1278",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jangki kinghen",
@@ -12436,7 +15188,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1279",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20312******"
   },
   {
     "name": "Wonchithung kinghen",
@@ -12445,7 +15199,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1280",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "B Zubeno lotha",
@@ -12454,7 +15210,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1281",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tumpeno patton",
@@ -12463,7 +15221,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1282",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubenthung odyuo",
@@ -12472,7 +15232,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1283",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Fuchumbeni lotha",
@@ -12481,7 +15243,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1284",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37630******"
   },
   {
     "name": "Liyan odyuo",
@@ -12490,7 +15254,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1285",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonpeni odyuo",
@@ -12499,7 +15265,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/1286",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Therali kithan",
@@ -12508,7 +15276,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1287",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Edward kithan",
@@ -12517,7 +15287,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1288",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renthungo kithan",
@@ -12526,7 +15298,9 @@ const jobCardData = [
     "age": "52",
     "job_card": "NL-04-003-003-003/1289",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "20234******"
   },
   {
     "name": "P Areni mozhui",
@@ -12535,7 +15309,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1290",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumbeni kithan",
@@ -12544,7 +15320,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/1291",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "37224******"
   },
   {
     "name": "Chumbenthung jami",
@@ -12553,7 +15331,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1292",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdeno kithan",
@@ -12562,7 +15342,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/1293",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "India Post Payments Bank",
+    "account_number": "038110******"
   },
   {
     "name": "Rhonbeni Yanthan*",
@@ -12571,7 +15353,9 @@ const jobCardData = [
     "age": "42",
     "job_card": "NL-04-003-003-003/1294",
     "issue_date": "13/5/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbemo patton",
@@ -12580,7 +15364,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1295",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lanthungo Tungoe",
@@ -12589,7 +15375,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1296",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "E Pipeni Kinghen",
@@ -12598,7 +15386,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1297",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "E Benchumi kinghen",
@@ -12607,7 +15397,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1298",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Erenbeni E Kinghen",
@@ -12616,7 +15408,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1299",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Orentsamo Kinghen",
@@ -12625,7 +15419,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1300",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Noyingbeni T humtsoe",
@@ -12634,7 +15430,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1301",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsolumi humtsoe",
@@ -12643,7 +15441,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/1302",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jandeno lotha",
@@ -12652,7 +15452,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1303",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbeni L Patton",
@@ -12661,7 +15463,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1304",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbeni Humtsoe",
@@ -12670,7 +15474,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1305",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Naro",
@@ -12679,7 +15485,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1306",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zuchobemo patton",
@@ -12688,7 +15496,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1307",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yivungi patton",
@@ -12697,7 +15507,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/1308",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhathung L patton",
@@ -12706,7 +15518,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1309",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nyanbeni Patton",
@@ -12715,7 +15529,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/1310",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43475******"
   },
   {
     "name": "Jomoni Patton",
@@ -12724,7 +15540,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/1311",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "UCO Bank",
+    "account_number": "35033211******"
   },
   {
     "name": "Emilo Humtsoe",
@@ -12733,7 +15551,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1312",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubemo Humtsoe",
@@ -12742,7 +15562,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1313",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Susan humtsoe",
@@ -12751,7 +15573,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1314",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zulochan Humtsoe",
@@ -12760,7 +15584,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1315",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jonitanga Humtsoe",
@@ -12769,7 +15595,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1316",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yilobemo kithan",
@@ -12778,7 +15606,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1317",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43437******"
   },
   {
     "name": "Thungyani humtsoe",
@@ -12787,7 +15617,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1318",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sharon Ngullie",
@@ -12796,7 +15628,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1319",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renchithung",
@@ -12805,7 +15639,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1320",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobeno Tungoe",
@@ -12814,7 +15650,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1321",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yithunglo Patton",
@@ -12823,7 +15661,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1322",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chonbenthung T Humtsoe",
@@ -12832,7 +15672,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1323",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Martha kithan",
@@ -12841,7 +15683,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1324",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdeno Lotha",
@@ -12850,7 +15694,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1325",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbeni T Humtsoe",
@@ -12859,7 +15705,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1326",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chonbenthung Kithan",
@@ -12868,7 +15716,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1327",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "L Khobenthung Kinghen",
@@ -12877,7 +15727,9 @@ const jobCardData = [
     "age": "54",
     "job_card": "NL-04-003-003-003/1328",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyingbeni kithan",
@@ -12886,7 +15738,9 @@ const jobCardData = [
     "age": "48",
     "job_card": "NL-04-003-003-003/1329",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumchamo N Kithan",
@@ -12895,7 +15749,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1330",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lawrence Kinghen",
@@ -12904,7 +15760,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/1331",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanreno o kikon",
@@ -12913,7 +15771,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1332",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Easter Jami",
@@ -12922,7 +15782,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1333",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "42514******"
   },
   {
     "name": "Rahel Tungoi",
@@ -12931,7 +15793,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1334",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Chubonthung L kithan",
@@ -12940,7 +15804,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1335",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumi L kithan",
@@ -12949,7 +15815,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1336",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenbemo lotha",
@@ -12958,7 +15826,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1337",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanmongi lotha",
@@ -12967,7 +15837,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1338",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumlo lotha",
@@ -12976,7 +15848,9 @@ const jobCardData = [
     "age": "57",
     "job_card": "NL-04-003-003-003/1339",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Liyani Kikon",
@@ -12985,7 +15859,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1340",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungro Tungoe",
@@ -12994,7 +15870,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1341",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nsan Jami",
@@ -13003,7 +15881,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1342",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Noyingbeni Y Murry",
@@ -13012,7 +15892,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1343",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbeni lotha",
@@ -13021,7 +15903,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1344",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lichanbemo Felix K Patton",
@@ -13030,7 +15914,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1345",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Achano Patton",
@@ -13039,7 +15925,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/1346",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Hachopeni Angela K Patton",
@@ -13048,7 +15936,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1347",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungbeni K Patton",
@@ -13057,7 +15947,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1348",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "E Chenio Tsopoe",
@@ -13066,7 +15958,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/1349",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yilance Tsopoe",
@@ -13075,7 +15969,9 @@ const jobCardData = [
     "age": "43",
     "job_card": "NL-04-003-003-003/1350",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ekyimo lotha",
@@ -13084,7 +15980,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1351",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "42845******"
   },
   {
     "name": "Meribemo Shitiri",
@@ -13093,7 +15991,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1352",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thechano Patton",
@@ -13102,7 +16002,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/1353",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pilamo Y Patton",
@@ -13111,7 +16013,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1354",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rita R Patton",
@@ -13120,7 +16024,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1355",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "M Mhonchumi Tsopoe",
@@ -13129,7 +16035,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1356",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao Tsopoe",
@@ -13138,7 +16046,9 @@ const jobCardData = [
     "age": "21",
     "job_card": "NL-04-003-003-003/1357",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsenthungo Kithan",
@@ -13147,7 +16057,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1358",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renben Patton",
@@ -13156,7 +16068,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1359",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhao Patton",
@@ -13165,7 +16079,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1360",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumpeni Patton",
@@ -13174,7 +16090,9 @@ const jobCardData = [
     "age": "61",
     "job_card": "NL-04-003-003-003/1361",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yithunglo",
@@ -13183,7 +16101,9 @@ const jobCardData = [
     "age": "55",
     "job_card": "NL-04-003-003-003/1362",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Therali M shitiri",
@@ -13192,7 +16112,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1363",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Sancho Shitiry",
@@ -13201,7 +16123,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/1364",
     "issue_date": "7/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Shanjo*",
@@ -13210,7 +16134,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/1364",
     "issue_date": "7/4/2025",
-    "remarks": "Deleted w.e.f. 24/9/2025; Reason: unwilling to work"
+    "remarks": "Deleted w.e.f. 24/9/2025; Reason: unwilling to work",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Merithung humtsoe",
@@ -13219,7 +16145,9 @@ const jobCardData = [
     "age": "25",
     "job_card": "NL-04-003-003-003/1365",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanbeni Shitry",
@@ -13228,7 +16156,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1366",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "UCO Bank",
+    "account_number": "23630110******"
   },
   {
     "name": "Chumdeno Patton",
@@ -13237,7 +16167,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1367",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y Shanjo Kithan",
@@ -13246,7 +16178,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1368",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhontsen Patton",
@@ -13255,7 +16189,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1369",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Bank of Baroda",
+    "account_number": "18830100******"
   },
   {
     "name": "Limhathung R Patton",
@@ -13264,7 +16200,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1370",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Vincent R Patton",
@@ -13273,7 +16211,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1371",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yibenthung Tsopoe",
@@ -13282,7 +16222,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1372",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "E Jenio Humtsoe",
@@ -13291,7 +16233,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1373",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yerali Kinghen",
@@ -13300,7 +16244,9 @@ const jobCardData = [
     "age": "58",
     "job_card": "NL-04-003-003-003/1374",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610006******"
   },
   {
     "name": "Phyokhano Kinghen",
@@ -13309,7 +16255,9 @@ const jobCardData = [
     "age": "69",
     "job_card": "NL-04-003-003-003/1375",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumbeni Kinghen",
@@ -13318,7 +16266,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1376",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rembemo Samuel Humtsoe",
@@ -13327,7 +16277,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1377",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tsanthungo Y Humtsoe",
@@ -13336,7 +16288,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1378",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yantsothung R Patton",
@@ -13345,7 +16299,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1379",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43968******"
   },
   {
     "name": "Tumchobeni M Shitiri",
@@ -13354,7 +16310,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1380",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tori M Shtiri",
@@ -13363,7 +16321,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1381",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbeni",
@@ -13372,7 +16332,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1382",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Longshibeni",
@@ -13381,7 +16343,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1383",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Reniyimi Kithan",
@@ -13390,7 +16354,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/1384",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Martina Kithan",
@@ -13399,7 +16365,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1385",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbeni Kithan",
@@ -13408,7 +16376,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1386",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Jenikhon Kithan",
@@ -13417,7 +16387,9 @@ const jobCardData = [
     "age": "65",
     "job_card": "NL-04-003-003-003/1387",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Y Abemo Lotha",
@@ -13426,7 +16398,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/1388",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Oreno Odyuo",
@@ -13435,7 +16409,9 @@ const jobCardData = [
     "age": "62",
     "job_card": "NL-04-003-003-003/1389",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610091******"
   },
   {
     "name": "Martha Humtsoe",
@@ -13444,7 +16420,9 @@ const jobCardData = [
     "age": "37",
     "job_card": "NL-04-003-003-003/1390",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbeni Enny",
@@ -13453,7 +16431,9 @@ const jobCardData = [
     "age": "19",
     "job_card": "NL-04-003-003-003/1391",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Roland",
@@ -13462,7 +16442,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1392",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Atseno enny",
@@ -13471,7 +16453,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/1393",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzano Enny",
@@ -13480,7 +16464,9 @@ const jobCardData = [
     "age": "26",
     "job_card": "NL-04-003-003-003/1394",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wothunglo Enny",
@@ -13489,7 +16475,9 @@ const jobCardData = [
     "age": "60",
     "job_card": "NL-04-003-003-003/1395",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Tracy Humtsoe",
@@ -13498,7 +16486,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1396",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Loreno Yanthan",
@@ -13507,7 +16497,9 @@ const jobCardData = [
     "age": "34",
     "job_card": "NL-04-003-003-003/1397",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhashan Tungoe",
@@ -13516,7 +16508,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1398",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "C Sorenthung",
@@ -13525,7 +16519,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1399",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nzanbemo Lotha",
@@ -13534,7 +16530,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1400",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Benrithung Dominic Humtsoe",
@@ -13543,7 +16541,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1401",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Yanrenthung Humtsoe",
@@ -13552,7 +16552,9 @@ const jobCardData = [
     "age": "38",
     "job_card": "NL-04-003-003-003/1402",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonlumi Patton",
@@ -13561,7 +16563,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1403",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renthungo Patton",
@@ -13570,7 +16574,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1404",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhanbeni Patton",
@@ -13579,7 +16585,9 @@ const jobCardData = [
     "age": "46",
     "job_card": "NL-04-003-003-003/1405",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Wonimo Lotha",
@@ -13588,7 +16596,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1406",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rhontsuthung Tsopoe",
@@ -13597,7 +16607,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1407",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Aghali",
@@ -13606,7 +16618,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1408",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonyani Odyuo",
@@ -13615,7 +16629,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1409",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chumbeni Kinghen",
@@ -13624,7 +16640,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1410",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Nagaland State Cooperative Bank Ltd",
+    "account_number": "100610015******"
   },
   {
     "name": "Nchemo T Kinghen",
@@ -13633,7 +16651,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1411",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "35250******"
   },
   {
     "name": "Nzanti",
@@ -13642,7 +16662,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1412",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "39950******"
   },
   {
     "name": "Yandeno Kikon",
@@ -13651,7 +16673,9 @@ const jobCardData = [
     "age": "28",
     "job_card": "NL-04-003-003-003/1413",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "State Bank of India",
+    "account_number": "43937******"
   },
   {
     "name": "Lanpvuo Kinghen",
@@ -13660,7 +16684,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1414",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renchumi odyuo",
@@ -13669,7 +16695,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/1415",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Chenithung Patton",
@@ -13678,7 +16706,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1416",
     "issue_date": "30/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Bilano Patton",
@@ -13687,7 +16717,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/1417",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Meriyani Y Patton",
@@ -13696,7 +16728,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1418",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Thungdemo Y patton",
@@ -13705,7 +16739,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1419",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung Y Patton",
@@ -13714,7 +16750,9 @@ const jobCardData = [
     "age": "23",
     "job_card": "NL-04-003-003-003/1420",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Ruth Lotha",
@@ -13723,7 +16761,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1421",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Rosemary Patton",
@@ -13732,7 +16772,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1422",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "C Renjamo",
@@ -13741,7 +16783,9 @@ const jobCardData = [
     "age": "44",
     "job_card": "NL-04-003-003-003/1423",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Myingthungo Enny",
@@ -13750,7 +16794,9 @@ const jobCardData = [
     "age": "59",
     "job_card": "NL-04-003-003-003/1424",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zanbeni Enny",
@@ -13759,7 +16805,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1425",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Khonzani",
@@ -13768,7 +16816,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1426",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lochumi Enny",
@@ -13777,7 +16827,9 @@ const jobCardData = [
     "age": "22",
     "job_card": "NL-04-003-003-003/1427",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Lobilo",
@@ -13786,7 +16838,9 @@ const jobCardData = [
     "age": "53",
     "job_card": "NL-04-003-003-003/1428",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhonbemo L Kithan*",
@@ -13795,7 +16849,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1429",
     "issue_date": "13/5/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Nchumthung L Kithan",
@@ -13804,7 +16860,9 @@ const jobCardData = [
     "age": "33",
     "job_card": "NL-04-003-003-003/1430",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Pikhono",
@@ -13813,7 +16871,9 @@ const jobCardData = [
     "age": "51",
     "job_card": "NL-04-003-003-003/1431",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Adven Tsopoe",
@@ -13822,7 +16882,9 @@ const jobCardData = [
     "age": "27",
     "job_card": "NL-04-003-003-003/1432",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "P Yanbeni Kithan",
@@ -13831,7 +16893,9 @@ const jobCardData = [
     "age": "29",
     "job_card": "NL-04-003-003-003/1433",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renchumi",
@@ -13840,7 +16904,9 @@ const jobCardData = [
     "age": "32",
     "job_card": "NL-04-003-003-003/1434",
     "issue_date": "13/5/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renlamo N Kithan",
@@ -13849,7 +16915,9 @@ const jobCardData = [
     "age": "36",
     "job_card": "NL-04-003-003-003/1435",
     "issue_date": "21/6/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zarench N Kithan",
@@ -13858,7 +16926,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/1436",
     "issue_date": "21/6/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Noyingbeni N Kithan",
@@ -13867,7 +16937,9 @@ const jobCardData = [
     "age": "39",
     "job_card": "NL-04-003-003-003/1437",
     "issue_date": "21/6/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Mhono",
@@ -13876,7 +16948,9 @@ const jobCardData = [
     "age": "41",
     "job_card": "NL-04-003-003-003/1438",
     "issue_date": "26/8/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "James Humtsoe",
@@ -13885,7 +16959,9 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/1439",
     "issue_date": "26/8/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Zubeni Rosemy Humtsoe",
@@ -13894,7 +16970,9 @@ const jobCardData = [
     "age": "24",
     "job_card": "NL-04-003-003-003/1440",
     "issue_date": "26/8/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Arhoni Yanthan*",
@@ -13903,7 +16981,9 @@ const jobCardData = [
     "age": "40",
     "job_card": "NL-04-003-003-003/1441",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Kikon*",
@@ -13912,7 +16992,9 @@ const jobCardData = [
     "age": "30",
     "job_card": "NL-04-003-003-003/1632",
     "issue_date": "13/5/2025",
-    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat"
+    "remarks": "Deleted w.e.f. 26/6/2026; Reason: Non-existent in Panchayat",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "Renbemo*",
@@ -13921,7 +17003,9 @@ const jobCardData = [
     "age": "35",
     "job_card": "NL-04-003-003-003/4428",
     "issue_date": "11/8/2007",
-    "remarks": "Deleted w.e.f. 17/8/2018; Reason: Incorrect Job Card"
+    "remarks": "Deleted w.e.f. 17/8/2018; Reason: Incorrect Job Card",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "NTSENO TUNGOE*",
@@ -13930,7 +17014,9 @@ const jobCardData = [
     "age": "49",
     "job_card": "NL-04-003-003-003/4429",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ZUBENI ODYUO*",
@@ -13939,7 +17025,9 @@ const jobCardData = [
     "age": "50",
     "job_card": "NL-04-003-003-003/4430",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "TUMCHOBEMO SHITIRI*",
@@ -13948,7 +17036,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/4431",
     "issue_date": "",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "LANSHAMO KINGHEN",
@@ -13957,7 +17047,9 @@ const jobCardData = [
     "age": "47",
     "job_card": "NL-04-003-003-003/4432",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "CHONBENI KINGHEN",
@@ -13966,7 +17058,9 @@ const jobCardData = [
     "age": "31",
     "job_card": "NL-04-003-003-003/4433",
     "issue_date": "2/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   },
   {
     "name": "ETHUNG L KINGHEN",
@@ -13975,6 +17069,8 @@ const jobCardData = [
     "age": "20",
     "job_card": "NL-04-003-003-003/4434",
     "issue_date": "21/4/2025",
-    "remarks": ""
+    "remarks": "",
+    "bank": "Not found",
+    "account_number": "Account number not found"
   }
 ];
